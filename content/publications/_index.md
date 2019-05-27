@@ -384,14 +384,14 @@ Donnelly, D. S., Zelterman, D., Sharkis, S., Krause, D. S. ***Exp. Hematol.*** 1
 <br>  
 
 * **Normal neutrophil differentiation and secondary granule gene expression in the EML and MPRO cell lines**  
-Lawson, N. D., Krause, D. S., Berliner, N. ***Exp. Hematol.*** 1998. PMID: [d9808058](https://www.ncbi.nlm.nih.gov/pubmed/d9808058)  
+Lawson, N. D., Krause, D. S., Berliner, N. ***Exp. Hematol.*** 1998. PMID: [9808058](https://www.ncbi.nlm.nih.gov/pubmed/9808058)  
 
 * **Cytosine deaminase adenoviral vector and 5-fluorocytosine selectively reduce breast cancer cells 1 million-fold when they contaminate hematopoietic cells: a potential purging method for autologous transplantation**  
-Garcia-Sanchez, F., Pizzorno, G., Fu, S. Q., Nanakorn, T., Krause, D. S., Liang, J., Adams, E., Leffert, J. J., Yin, L. H., Cooperberg, M. R., Hanania, E., Wang, W. L., Won, J. H., Peng, X. Y., Cote, R., Brown, R., Burtness, B., Giles, R., Crystal, R., Deisseroth, A. B. ***Blood.*** 1998. PMID: [d9657770](https://www.ncbi.nlm.nih.gov/pubmed/d9657770)  
+Garcia-Sanchez, F., Pizzorno, G., Fu, S. Q., Nanakorn, T., Krause, D. S., Liang, J., Adams, E., Leffert, J. J., Yin, L. H., Cooperberg, M. R., Hanania, E., Wang, W. L., Won, J. H., Peng, X. Y., Cote, R., Brown, R., Burtness, B., Giles, R., Crystal, R., Deisseroth, A. B. ***Blood.*** 1998. PMID: [9657770](https://www.ncbi.nlm.nih.gov/pubmed/9657770)  
 
 <br>
 # 1995  
 <br>  
 
 * **Safety and immunogenicity of an outer surface protein A vaccine in subjects with previous Lyme disease**  
-Schoen, R. T., Meurice, F., Brunet, C. M., Cretella, S., Krause, D. S., Craft, J. E., Fikrig, E. ***J. Infect. Dis.*** 1995. PMID: [d7594671](https://www.ncbi.nlm.nih.gov/pubmed/d7594671)  
+Schoen, R. T., Meurice, F., Brunet, C. M., Cretella, S., Krause, D. S., Craft, J. E., Fikrig, E. ***J. Infect. Dis.*** 1995. PMID: [7594671](https://www.ncbi.nlm.nih.gov/pubmed/7594671)  

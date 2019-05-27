@@ -20,26 +20,26 @@ date_format = "Jan 2006"
 
 [[item]]
   title = "Hematopoiesis"
-  url = "https://www.coursera.org"
+  url = "/research/#hematopoiesis-and-leukemogenesis"
   icon="/img/research/hematopoiesis.png"
   description = "Defining the molecular mechanism(s) that regulate gene expression during successive stages of hematopoiesis"
 
 [[item]]
   title = "Leukemogenesis"
   icon="/img/research/leukemia.png"
-  url = "https://www.edx.org"
+  url = "/research/#hematopoiesis-and-leukemogenesis"
   description = "Exploring mechanisms of leukemogenesis"
 
 [[item]]
   title = "Parathyroid differentiation"
   icon="/img/research/parathyroid.png"
-  url = "https://www.edx.org"
+  url = "/research/#parathyroid-development"
   description = "Pluripotent stem cell differentiation into functional parathyroid cells"
 
 [[item]]
   title = "Self renewal and differentiation"
   icon="/img/research/lung_epithelium.png"
-  url = "https://www.edx.org"
+  url = "/research/#directed-epithelial-differentiation"
   description = "Understanding how adult lung epithelial progenitor cell self renewal and differentiation is controlled"
 
 +++

@@ -1,32 +1,62 @@
-.jtron{
+.jtron {
   text-align: center;
   height: 400px;
   margin: auto;
   padding-top: 6rem;
 }
 
-.card{
+.jumbo-image {
+  max-height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+@media
+  only screen and (min-width: 850px) {
+  .parallax {
+    max-height: 800px;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+@media
+  only screen and (min-width: 420px) and (max-width: 849px) {
+  .parallax {
+    max-height: 800px;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+  }
+}
+
+@media
+  only screen and (max-width: 419px) {
+  .parallax {
+    max-height: 800px;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 300%;
+  }
 }
 
 .icon-frame {
-    height: 100px;      /* equals max image height */
-    width: 100px;
-    border: 1px solid red;
-    white-space: nowrap;
-    text-align: center; margin: 1em 1em;
+  height: 100px;
+  /* equals max image height */
+  width: 100px;
+  border: 1px solid red;
+  white-space: nowrap;
+  text-align: center;
+  margin: 1em 1em;
 }
 
 .icon-helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-
-}
-
-img{
-  max-height: 100px;
-  max-width: 100px;
+  display: inline-block;
+  height: 100%;
   vertical-align: middle;
 }
 
@@ -36,12 +66,38 @@ img{
 }
 
 .research-icon img {
-    width: 120px;
-    height: 120px;
-    margin: auto;
-    display: block;
+  width: 120px;
+  height: 120px;
+  max-height: 120px;
+  max-width: 120px;
+  margin: auto;
+  display: block;
+  vertical-align: middle;
 }
 
+research-image {
+  vertical-align: middle
+}
+
+.portrait-holder {
+  padding-top: 40px;
+  height: 400px
+}
+
+.portrait  {
+  border-radius: 10px;
+  height: 330px;
+  width: 220px;
+  margin-top: 0px;
+}
+
+.description{
+
+}
+
+.description h3{
+  font-size: 1rem;
+}
 
 .experience .card-text,
 .experience .card-text p {
@@ -51,4 +107,52 @@ img{
 
 .experience .card-title {
   font-size: 1rem;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 2rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+.img-sm {
+  max-height: 200px;
+}
+
+.img-sm img{
+  max-height:200px
+}
+
+.img-md {
+  max-height: 450px;
+}
+
+.img-md img{
+  max-height:350px
+}
+
+.img-md figcaption{
+  color: grey;
+  text-align: center;
+  font-size: .8rem;
+}
+
+
+.img-lg {
+  max-height: 500px;
+}
+
+.img-lg img{
+  max-height:500px
+}
+
+.img-xl {
+  max-height: 700px;
+}
+
+.img-xl img{
+  max-height:700px
 }

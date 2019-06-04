@@ -26,12 +26,12 @@ subtitle = ""
     tag = "*"
 
    [[content.filter_button]]
-    name = "Y-Chromosome FISH Protocols"
+    name = "Y-Chromosome FISH"
     tag = "Y-chromosome"
 
    [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Immunohistochemistry"
+    tag = "Immunohistochemistry"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

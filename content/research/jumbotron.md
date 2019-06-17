@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Research"
-subtitle = "Here's a summary of the ongoing research projects in the lab"
+title = "**Research**"
+subtitle = "A summary of the ongoing research projects in the lab"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -17,7 +17,7 @@ subtitle = "Here's a summary of the ongoing research projects in the lab"
 
 [design.background]
   # Background image.
-   image = "jumbotron.png"  # Name of image in `static/img/`.
+   image = "jumbotron.jpg"  # Name of image in `static/img/`.
    image_darken = 0.3  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).

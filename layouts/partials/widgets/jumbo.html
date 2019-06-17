@@ -1,4 +1,6 @@
 {{ $st := .page }}
+{{ $ := .root }}
+{{ $page := .page }}
 
 <div class="row jtron">
 
@@ -6,5 +8,6 @@
       {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
       {{ with $st.Params.subtitle }}<h2>{{ . | markdownify | emojify }}</h2>{{ end }}
       {{ $st.Content }}
+
     </div>
 </div>

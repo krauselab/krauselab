@@ -1,15 +1,9 @@
 .jtron {
   text-align: center;
   height: 400px;
-  margin: auto;
-  padding-top: 6rem;
+  padding-top: 7rem;
 }
 
-.jumbo-image {
-  max-height: 800px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
 @media
   only screen and (min-width: 850px) {
@@ -36,7 +30,7 @@
 @media
   only screen and (max-width: 419px) {
   .parallax {
-    max-height: 800px;
+    max-height: 400px;
     background-attachment: fixed;
     background-position: 50% 0%;
     background-repeat: no-repeat;
@@ -155,4 +149,33 @@ img[src$='#center']
 
 .img-xl img{
   max-height:700px
+}
+
+
+.slideshow-mask {
+
+}
+
+.slideshow-mask:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  transition: height 0.1s ease-out;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+.img_caption{
+  font-size: 0.9rem;
+}
+
+.section-heading{
+  padding-bottom: 1.5rem;
+}
+
+.ext-summary{
+  font-size: 1.25rem;
+  color: #4c4c4c;
 }

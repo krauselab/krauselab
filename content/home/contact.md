@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
 
 title = "Contact"
-subtitle = ""
+subtitle = "If you have any question about the lab, please fill out the form to the right to send an email to Diane."
 
 # Automatically link email and phone?
 autolink = true

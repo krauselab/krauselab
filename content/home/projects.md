@@ -1,11 +1,11 @@
 +++
-# Accomplishments widget.
+# Ongoing projects in the lab.
 widget = "active_projects"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Active projects"
+title = "Active research"
 subtitle = "A selection of our ongoing research."
 
 # Date format
@@ -19,27 +19,18 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  title = "Hematopoiesis"
+  title = "Hematopoiesis and Leukemogenesis"
   url = "/research/#hematopoiesis-and-leukemogenesis"
-  icon="/img/research/hematopoiesis.png"
-  description = "Defining the molecular mechanism(s) that regulate gene expression during successive stages of hematopoiesis"
-
-[[item]]
-  title = "Leukemogenesis"
-  icon="/img/research/leukemia.png"
-  url = "/research/#hematopoiesis-and-leukemogenesis"
-  description = "Exploring mechanisms of leukemogenesis"
-
-[[item]]
-  title = "Parathyroid differentiation"
-  icon="/img/research/parathyroid.png"
-  url = "/research/#parathyroid-development"
-  description = "Pluripotent stem cell differentiation into functional parathyroid cells"
+  description = "Using bone marrow derived stem and progenitor cells to understand blood development and cancer"
 
 [[item]]
   title = "Self renewal and differentiation"
-  icon="/img/research/lung_epithelium.png"
   url = "/research/#directed-epithelial-differentiation"
   description = "Understanding how adult lung epithelial progenitor cell self renewal and differentiation is controlled"
 
+
+[[item]]
+  title = "Cell therapy"
+  url = "/research/#"
+  description = "Producing cell therapy products for bone marrow transplantation and clinical trials"
 +++

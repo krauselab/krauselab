@@ -1,36 +1,20 @@
 +++
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "research"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = ""
-subtitle = ""
+title = "**Hematopoiesis and Leukemogenesis**"
+subtitle = "Using bone marrow derived stem and progenitor cells to understand blood development and cancer"
+
+img_desc = "*Using a custom imaging method, we can watch cell fate commitment unfold over multiple days as a single bipotent Megakaryocytic-Erythroid Progenitor differentiates into megakaryocytes (green) and erythroid cells (red).*"
+
+extended_summary = "**Most projects in the Krause lab focus on molecular mechanisms that regulate early hematopoiesis and may contribute to leukemogenesis when regulation fails. Specifically, we use primary cells as well as murine and human embryonic stem cells to study RBM15 and MKL1, two genes that are fused in the t(1;22) translocation associated with Acute Megakaryoblastic Leukemia (AMKL). We are studying the roles of RBM15 and MKL1 in normal hematopoiesis and leukemogenesis.**"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
-
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
-  # color = "navy"
-
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-
-  # Background image.
-  # image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
-  text_color_light = false
-
+  columns = "2"
+  image = "left"
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["50px", "0", "50px", "0"]
@@ -43,12 +27,6 @@ subtitle = ""
  css_class = ""
 +++
 
-## Hematopoiesis and Leukemogenesis
-#### Using bone marrow derived stem and progenitor cells to understand blood development and cancer
-
-Most projects in the Krause lab focus on molecular mechanisms that regulate early hematopoiesis and may contribute to leukemogenesis when regulation fails. Specifically, we use primary cells as well as murine and human embryonic stem cells to study RBM15 and MKL1, two genes that are fused in the t(1;22) translocation associated with Acute Megakaryoblastic Leukemia AMKL). We are studying the roles of RBM15 and MKL1 in normal hematopoiesis and leukemogenesis.
-
-{{< figure class="img-md" src="/img/research/hematopoeisis_research.jpg#center" title="**In vitro differentiation**" caption="*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*">}}
 
 We have shown that RBM15 is downregulated as blood stem cells differentiate such that megakaryoblasts express low levels of RBM15. When RBM15 is overexpressed, it prevents myeloid differentiation, and when RBM15 is inhibited or deleted, myeloid differentiation is enhanced, and there is a loss of hematopoietic stem and progenitor cells. RBM15 is a member of the spen family of proteins that share a C-terminal SPOC domain that bind to the nuclear corepressor complex. We have shown that RBM15 represses Notch induced Hes1 promoter activity.  Also, RBM15, which is an RNA binding protein, plays a role in post-transcriptional changes to RNA icnluding splicing and methylation. Thus, RBM15 plays a role in hematopoiesis by maintaining myeloid cells in an undifferentiated state, and this activity is potentially mediated by regulation of Notch signaling and/or RNA processing.
 

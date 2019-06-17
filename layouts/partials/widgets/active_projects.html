@@ -13,45 +13,22 @@
     <p>{{ . | markdownify }}</p>{{ end }}
 
     {{ if $page.Params.item }}
-    {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}
-    {{- with .url -}}<a href="{{.}}" target="_blank" rel="noopener">{{- end -}}
-    <div class="card experience course">
-      <div class="container">
-      <div class="row align-items-center">
-        <div class="col">
-          <div class="research-icon">
-          {{- with .icon -}}<img src="{{ . }}" />{{end}}
-          </div>
-        </div>
-        <div class="col">
+    <div class="list-group list-group-flush">
 
-          <div class="card-body">
-
-              <h4 class="card-title exp-title text-muted my-0">{{.title | markdownify | emojify}}</h4>
-
-
-
+      {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}
+          <button type="button" class="list-group-item list-group-item-action">
+            <h4>{{.title | markdownify | emojify}}</h4>
             {{with .description}}
-            <div class="card-text"><p class="card-text">{{. | markdownify | emojify}}</p></div>
+            <p>{{. | markdownify | emojify}}</p>
             {{end}}
-
             {{ with .url }}
             <a class="stretched-link" href="{{.}}" target="_blank" rel="noopener">
               Read more
             </a>
             {{ end }}
-
-
-          </a>
-
-          </div>
-        </div>
-      </div>
+          </button>
+        {{end}}
+        {{end}}
     </div>
-
-    </div>
-
-    {{end}}
-    {{end}}
   </div>
 </div>

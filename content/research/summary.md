@@ -1,7 +1,7 @@
 +++
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = ""
@@ -42,4 +42,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-The Krause Laboratory is currently pursuing pursuing projects. To better define the molecular mechanism(s) regulating hematopoiesis, we are using single cell deep sequencing and bioinformatics of highly purified primary human and murine hematopoietic subpopulations. In order to more clearly delineate the epigenetic modifications that occur during lineage commitment and correlating these changes with mRNA expression, we are using chromatin immunoprecipitation, transcriptome analysis, and high resolution single cell microscopy.  Our ongoing studies on the mechanisms of leukemogenesis are focused on how the RBM15-MKL1 fusion protein encoded by the t(1;22) translocation of AMKL promotes transformation. Other work in the laboratory is focused on differentiation of pluripotent human cells into functional parathyroid cells, and determining the mechanisms that control type II pneumocyte maintenance and self-renewal in the lung.
+The Krause Laboratory is currently pursuing research projects. To better define the molecular mechanism(s) regulating hematopoiesis, we are using single cell deep sequencing and bioinformatics of highly purified primary human and murine hematopoietic subpopulations. In order to more clearly delineate the epigenetic modifications that occur during lineage commitment and correlating these changes with mRNA expression, we are using chromatin immunoprecipitation, transcriptome analysis, and high resolution single cell microscopy.  Our ongoing studies on the mechanisms of leukemogenesis are focused on how the RBM15-MKL1 fusion protein encoded by the t(1;22) translocation of AMKL promotes transformation. Other work in the laboratory is focused on differentiation of pluripotent human cells into functional parathyroid cells, and determining the mechanisms that control type II pneumocyte maintenance and self-renewal in the lung.

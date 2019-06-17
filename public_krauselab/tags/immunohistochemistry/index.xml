@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immunohistochemistry on Krause Lab</title>
+    <link>https://krauselab.net/tags/immunohistochemistry/</link>
+    <description>Recent content in Immunohistochemistry on Krause Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Diane Krause {year}</copyright>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krauselab.net/tags/immunohistochemistry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BRD-U Immunohistochemistry on Mouse - Paraffin</title>
+      <link>https://krauselab.net/lab-protocols/ihc_brdu_paraffin/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krauselab.net/lab-protocols/ihc_brdu_paraffin/</guid>
+      <description>Antibody - Dako mouse monoclonal clone Bu20, cat# M0744 1. Heat tissues to 60°C for 10 mins 2. Deparaffinize and rehydrate tissue sections through series of xylenes and ethanol incubations a. Xylenes or alternative (Citrisolve, Histoclear) incubate 2 times, 5 min each incubation (2 x 5 min) b. 100% ethanol, 5 min c. 95% ethanol, 5 min d. 70% ethanol, 5 min 3. Rinse the slides once in dH20 4. Wash with PBS for 5 mins 5.</description>
+    </item>
+    
+    <item>
+      <title>CD45 GFP CK immunofluorescence on mouse - paraffin</title>
+      <link>https://krauselab.net/lab-protocols/cd45_paraffin/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krauselab.net/lab-protocols/cd45_paraffin/</guid>
+      <description>GFP Antibody - Clontech mouse monoclonal, clone JL-8 cat# 8371-2
+Prepare MOM solutions according to manufacturers instructions- Vector MOM Peroxidase kit (cat# PK-2200) or MOM basic kit (cat# BMK-2202). All incubations take place at room temperature unless indicated.
+ Heat tissues to 60°C for 10 mins Deparaffinize and rehydrate tissue sections through series of xylenes and ethanol incubations a. Xylenes or alternative (Citrisolve, Histoclear) incubate 2 times, 5 min each incubation (2 x 5 min) b.</description>
+    </item>
+    
+    <item>
+      <title>GFP Immunohistochemistry on Mouse - Paraffin</title>
+      <link>https://krauselab.net/lab-protocols/gfp_ihc/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krauselab.net/lab-protocols/gfp_ihc/</guid>
+      <description>GFP Antibody - Molecular probes rabbit polyclonal, cat# A11122 Note: works best on lung, variable on other tissues
+ Heat tissues to 60°C for 10 mins Deparaffinize and rehydrate tissue sections through series of xylenes and ethanol incubations a. Xylenes or alternative (Citrisolve, Histoclear) incubate 2 times, 5 min each incubation (2 x 5 min) b. 100% ethanol, 5 min c. 5% ethanol, 5 min d. 70% ethanol, 5 min</description>
+    </item>
+    
+  </channel>
+</rss>

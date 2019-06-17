@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Krause Lab</title>
+    <link>https://krauselab.net/authors/ping-xia/</link>
+    <description>Recent content on Krause Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Diane Krause {year}</copyright>
+    
+	<atom:link href="https://krauselab.net/authors/ping-xia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://krauselab.net/authors/ping-xia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://krauselab.net/authors/ping-xia/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque mi eros, vel imperdiet est iaculis ultricies. Nunc quis sagittis libero. Aliquam ultrices purus auctor finibus consequat. Quisque bibendum bibendum lorem, et sodales velit vestibulum a. Integer eget suscipit elit. Donec commodo lorem ut sodales lacinia. Sed id metus ut purus egestas pellentesque. Phasellus venenatis congue ipsum non consequat. Suspendisse potenti. Nulla malesuada eros vel vestibulum egestas. Fusce quis odio finibus, accumsan nibh ac, feugiat lacus.</description>
+    </item>
+    
+  </channel>
+</rss>

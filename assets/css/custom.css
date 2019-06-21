@@ -169,13 +169,36 @@ img[src$='#center']
 
 .img_caption{
   font-size: 0.9rem;
+  margin-top: 1rem;
 }
 
 .section-heading{
-  padding-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
-.ext-summary{
-  font-size: 1.25rem;
+.attend {
+  margin-bottom: 2rem;
+}
+
+.attend-video {
+  padding-left: 1.5rem;
+}
+.attend video{
+  border-radius: 20%;
+
+}
+
+.summary{
+  display: flex;
+  align-items: center;
   color: #4c4c4c;
+  font-family: $headings-font-family;
+  padding-left: 7.5vw;
+  padding-right: 5vw;
+  margin-bottom: 7rem;
+
+}
+
+.summary h2{
+    font-size: 2rem;
 }

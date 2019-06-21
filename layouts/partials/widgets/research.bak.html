@@ -1,34 +1,27 @@
 {{ $st := .page }}
-
+{{ $columns := $st.Params.design.columns | default "2" }}
+{{ $image := $st.Params.design.image | default "left" }}
 {{ $extended_summary := $st.Params.extended_summary }}
 
 <div class="section-heading">
 {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
 {{ with $st.Params.subtitle }}<h4>{{ . | markdownify | emojify }}</h4>{{ end }}
 </div>
-<div class="row attend">
-    <div class="col-5 text-center attend-video">
+<div class="row">
+    <div class="col-12 col-lg-5" style="width: 470px; padding-left: 0px;">
+      <div class="container" style="width: 470px;">
       <video controls autoplay loop>
         <source src="/img/research/s9_MEP.webm" type="video/webm">
       </video>
       {{ with $st.Params.img_desc }}<p class="img_caption">{{ . | markdownify | emojify }}</p>{{ end }}
 
       </div>
-
-
-    <div class="col-7 text-middle summary">
-      <h2>{{ $extended_summary | markdownify | emojify }}<h2>
     </div>
-
+    <div class="col-12 col-lg ext-summary">
+      {{ $extended_summary | markdownify | emojify }}
+    </div>
 </div>
+
 <div class="row">
-    <div class="col">
-      </div>
-
-    <div class="col-8">
-      {{ $st.Content | markdownify | emojify }}
-    </div>
-    <div class="col">
-
-      </div>
+{{ $st.Content | markdownify | emojify }}
 </div>

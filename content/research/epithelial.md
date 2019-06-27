@@ -23,7 +23,7 @@ extended_summary = '*"Developing protocols for in vitro differentiation of epith
 
 
 
-In 2001, we published our finding that a single bone marrow derived cell could engraft the hematopoietic system and differentiate into mature epithelial cells in mice, and in 2002, we published that the same occurs in humans. The nonhematopoietic (non-blood) cell types that we focused on were epithelial cells in the lung, liver, GI tract and skin.  
+In early 2000, Neil Theise in the Krause laboratory discovered that bone marrow derived cells are capable of differentiating into non-hematopoietic cells throughout the body. In 2001, we published our finding that a single bone marrow derived cell could engraft the hematopoietic system and differentiate into mature epithelial cells in mice, and in 2002, we published that the same occurs in humans. The nonhematopoietic (non-blood) cell types that we focused on were epithelial cells in the lung, liver, GI tract and skin.  
 
 
 

@@ -44,5 +44,3 @@ user_groups:
 - Researchers
 - Visitors
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque mi eros, vel imperdiet est iaculis ultricies. Nunc quis sagittis libero. Aliquam ultrices purus auctor finibus consequat. Quisque bibendum bibendum lorem, et sodales velit vestibulum a. Integer eget suscipit elit. Donec commodo lorem ut sodales lacinia. Sed id metus ut purus egestas pellentesque. Phasellus venenatis congue ipsum non consequat. Suspendisse potenti. Nulla malesuada eros vel vestibulum egestas. Fusce quis odio finibus, accumsan nibh ac, feugiat lacus.

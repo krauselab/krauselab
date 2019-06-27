@@ -8,7 +8,6 @@ weight = 20  # Order that this section will appear.
 title = "Our mission"
 subtitle = ""
 +++
-
 **The goal of the Krause Laboratory** is to understand the molecular mechanisms that define hematopoiesis and leukemogenesis. Situated in the Yale Stem Cell Center at the Yale School of Medicine, we develop cellular models of hematopoiesis using bone marrow derived stem and progenitor cells. With Diane serving as Medical Director of the Advanced Cell Therapy Laboratory, the lab is uniquely situated to translate insights from basic research into improved strategies for bone marrow and stem cell transplantation and novel treatments for leukemia and lymphoma.  
 <br>
 

@@ -1,12 +1,16 @@
 #!/bin/bash
 
+rm -rf public/
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
 hugo -t academic # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+cp -r public/* krauselab_website/
+
 # Go To Public folder
-cd public
+cd krauselab_website/
 # Add changes to git.
 git add .
 

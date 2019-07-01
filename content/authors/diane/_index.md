@@ -62,8 +62,7 @@ email: "diane.krause@yale.edu"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
-- Visitors
+- Principal Investigator
 ---
 
 Diane Krause MD, PhD is Professor of Laboratory Medicine, Pathology and Cell Biology at Yale University; Associate Director of the Yale Stem Cell Center; and Director of the Clinical Cell Processing Laboratory. She received an Sc.B. degree in Biology from Brown University, and an MD and PhD degree from the University of Pennsylvania. After completing a residency in Clinical Pathology at the University of Pennsylvania, she performed post-doctoral studies at Johns Hopkins University.

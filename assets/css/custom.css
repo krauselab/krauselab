@@ -273,42 +273,20 @@ img[src$='#center']
     }
 }
 
-/* News pages */
-.featured-image {
- width:100%;
- background-position:0 0;
- background-origin:border-box;
- background-size:100vw;
- height:60vh;
- min-height:500px;
- -webkit-box-flex:1;
- -webkit-flex:1 0 auto;
- -ms-flex:1 0 auto;
- flex:1 0 auto
-}
-@media screen and (max-width:1199px) {
- .featured-image {
-  min-height:400px;
-  height:50vh;
- }
-}
-@media screen and (max-width:767px) {
- .featured-image {
-  min-height:300px;
-  background-size:cover;
-  height: auto;
- }
-}
+
 
 
 .button {
   width: 48px;
   height: 48px;
+  position: absolute;
+  left:calc(50% - 24px);
+  top: calc(50% - 24px);
+  fill: white;
   cursor: pointer;
-  &:hover {
-    fill: white;
 }
-}
+
+
 
 .defs {
 position: absolute;
@@ -317,7 +295,33 @@ left: -9999px;
 }
 
 .buttons {
-padding: 1rem;
-background: #f06d06;
+padding: 2rem;
+cursor: pointer;
+background-image: url('/img/mission_thumbnail.jpg');
+background-size: cover;
 float: left;
+z-index: 1;
+position: absolute;
+left:0px;
+top:0px;
+width: 100%;
+height: 100%;
+}
+
+.shadow {
+  background-color: rgba(0,0,0, 0.3);
+  position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-cover:hover .button {
+    fill: #286dc0;
+}
+
+.hidden {
+  display: none;
 }

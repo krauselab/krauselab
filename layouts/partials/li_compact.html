@@ -31,7 +31,11 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0" itemprop="name">
+      {{ if ( isset $item.Params "link" ) }}
+      <a href="{{ $item.Params.link }}" itemprop="url" target="_blank">{{ $item.Title }}</a>
+      {{ else }}
       <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
+      {{ end }}
     </h3>
 
     {{ with $summary }}

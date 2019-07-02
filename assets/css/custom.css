@@ -274,7 +274,7 @@ img[src$='#center']
 }
 
 
-
+/* For the vimeo cover */
 
 .button {
   width: 48px;
@@ -324,4 +324,66 @@ height: 100%;
 
 .hidden {
   display: none;
+}
+
+/* People cards */
+
+.people-card {
+  max-width: 300px;
+  background: #ffffff;
+  flex-basis: 100%;
+  width: 280px;
+}
+
+.people-card img{
+  border-radius: 30px;
+  padding: 20px 20px;
+
+}
+
+.people-card p{
+  font-size: 1rem;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.people-card h5{
+  margin-top: -20px;
+  height: 2rem;
+}
+
+.principal-investigator {
+  border-top: 10px solid #124160;
+}
+
+.postdoctoral-associate {
+  border-top: 10px solid #659b90;
+}
+
+.associate-research-scientist {
+  border-top: 10px solid #3184b8;
+}
+
+.graduate-student {
+  border-top: 10px solid #49ae6e;
+}
+
+.senior-administrative-assistant {
+  border-top: 10px solid #875F9A;
+}
+
+.portrait-title h3{
+  color: #4c5762
+}
+
+.btn-join{
+color: white;
+background-color: #63aaff;
+border-color: #fff;
+margin-top:1rem;
+}
+
+.btn-join h4{
+  color: white;
+  margin: 0.25rem;
 }

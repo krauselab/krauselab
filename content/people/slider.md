@@ -6,8 +6,8 @@ subtitle = "Photos of the lab enjoying life!"
 
 widget = "bootstrap_slider"
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 100  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 15  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).

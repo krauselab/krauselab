@@ -167,7 +167,11 @@ img[src$='#center']
   background: linear-gradient(to bottom, transparent 0%, black 100%);
 }
 
-/* Research page */
+.activites-slider{
+  margin-top: 3rem;
+}
+
+/* Research widget */
 .attend {
   margin-bottom: 2rem;
 }
@@ -210,9 +214,6 @@ img[src$='#center']
     }
 
     .attend-quote {
-      margin-bottom: 4rem;
-      padding-left: 10vw;
-      padding-right: 0vw;
       display: none;
     }
 
@@ -240,7 +241,7 @@ img[src$='#center']
 
     .attend-quote {
       margin-bottom: 7rem;
-      padding-left: 7vw;
+      padding-left: 3.5vw;
 
     }
     .attend-quote h2{
@@ -266,7 +267,7 @@ img[src$='#center']
 
     .attend-quote {
       margin-bottom: 7rem;
-      padding-left: 7vw;
+      padding-left: 3.5vw;
     }
     .attend-quote h2{
         font-size: 1.75rem;
@@ -333,6 +334,9 @@ height: 100%;
   background: #ffffff;
   flex-basis: 100%;
   width: 280px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 75px; /* Added */
 }
 
 .people-card img{
@@ -345,6 +349,9 @@ height: 100%;
   font-size: 1rem;
   margin-top: 1rem;
   height: 3rem;
+
+
+
 }
 
 .people-card h5{

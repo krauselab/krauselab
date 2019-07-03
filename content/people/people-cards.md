@@ -3,9 +3,9 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "Lab members"
+title = "**Lab members**"
 subtitle = "Meet the hardworking scientists who drive the research in the Krause Lab"
 
 # List user groups to display.

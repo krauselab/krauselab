@@ -27,7 +27,7 @@
   {{ with site.GetPage (printf "/members/%s" (path.Base (path.Split .Path).Dir)) }}
     {{ $link = .RelPermalink }}
   {{ end }}
-  <div class="col-12 col-lg-auto people-person">
+  <div class="col-12 col-md-6 col-lg-4 people-person mx-auto">
     {{ $src := "" }}
     {{ if $avatar }}
       {{ $avatar_image := $avatar.Fill "400x600 TopLeft" }}

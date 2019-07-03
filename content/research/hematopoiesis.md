@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "**Hematopoiesis and Leukemogenesis**"
+title = "**Hematopoietic self-renewal and differentiation**"
 subtitle = "Using bone marrow derived stem and progenitor cells to understand blood development and cancer"
 
 

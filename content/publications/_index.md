@@ -363,7 +363,7 @@ Krause, D. S., Theise, N. D., Collector, M. I., Henegariu, O., Hwang, S., Gardne
 Perez, L. E., Rinder, H. M., Wang, C., Tracey, J. B., Maun, N., Krause, D. S. ***Blood.*** 2001. PMID: [11238102](https://www.ncbi.nlm.nih.gov/pubmed/11238102)  
 
 <br>
-# 2000  
+# 2000 and earlier
 <br>  
 
 * **Isolation and flow cytometric analysis of T-cell-depleted CD34+ PBPCs**  
@@ -372,16 +372,9 @@ Debelak, J., Shlomchik, M. J., Snyder, E. L., Cooper, D., Seropian, S., McGuirk,
 * **Regulation of CD34 transcription by Sp1 requires sites upstream and downstream of the transcription start site**  
 Taranenko, N., Krause, D. S. ***Exp. Hematol.*** 2000. PMID: [10989198](https://www.ncbi.nlm.nih.gov/pubmed/10989198)  
 
-<br>
-# 1999  
-<br>  
 
 * **Functional activity of murine CD34+ and CD34- hematopoietic stem cell populations**  
 Donnelly, D. S., Zelterman, D., Sharkis, S., Krause, D. S. ***Exp. Hematol.*** 1999. PMID: [10340393](https://www.ncbi.nlm.nih.gov/pubmed/10340393)  
-
-<br>
-# 1998  
-<br>  
 
 * **Normal neutrophil differentiation and secondary granule gene expression in the EML and MPRO cell lines**  
 Lawson, N. D., Krause, D. S., Berliner, N. ***Exp. Hematol.*** 1998. PMID: [9808058](https://www.ncbi.nlm.nih.gov/pubmed/9808058)  
@@ -389,9 +382,17 @@ Lawson, N. D., Krause, D. S., Berliner, N. ***Exp. Hematol.*** 1998. PMID: [9808
 * **Cytosine deaminase adenoviral vector and 5-fluorocytosine selectively reduce breast cancer cells 1 million-fold when they contaminate hematopoietic cells: a potential purging method for autologous transplantation**  
 Garcia-Sanchez, F., Pizzorno, G., Fu, S. Q., Nanakorn, T., Krause, D. S., Liang, J., Adams, E., Leffert, J. J., Yin, L. H., Cooperberg, M. R., Hanania, E., Wang, W. L., Won, J. H., Peng, X. Y., Cote, R., Brown, R., Burtness, B., Giles, R., Crystal, R., Deisseroth, A. B. ***Blood.*** 1998. PMID: [9657770](https://www.ncbi.nlm.nih.gov/pubmed/9657770)  
 
-<br>
-# 1995  
-<br>  
+* **CD34 expression by embryonic hematopoietic and endothelial cells does not require c-Myb.**  
+Krause DS, Mucenski ML, Lawler AM, May WS. ***Exp Hematol.*** 1998. PMID: [9766450](https://www.ncbi.nlm.nih.gov/pubmed/9766450)  
 
-* **Safety and immunogenicity of an outer surface protein A vaccine in subjects with previous Lyme disease**  
-Schoen, R. T., Meurice, F., Brunet, C. M., Cretella, S., Krause, D. S., Craft, J. E., Fikrig, E. ***J. Infect. Dis.*** 1995. PMID: [7594671](https://www.ncbi.nlm.nih.gov/pubmed/7594671)  
+* **Regulation of CD34 expression in differentiating M1 cells.**  
+Krause DS, Kapadia SU, Raj NB, May WS. ***Exp Hematol.*** 1997. PMID: [9293902](https://www.ncbi.nlm.nih.gov/pubmed/9293902)  
+
+* **CD34: structure, biology, and clinical utility.**  
+Krause DS, Fackler MJ, Civin CI, May WS. ***Blood.*** 1996. PMID: [8547630](https://www.ncbi.nlm.nih.gov/pubmed/8547630)  
+
+* **Full-length but not truncated CD34 inhibits hematopoietic cell differentiation of M1 cells.**
+Fackler MJ, Krause DS, Smith OM, Civin CI, May WS. ***Blood.*** 1995. PMID: [7538813](https://www.ncbi.nlm.nih.gov/pubmed/7538813)  
+
+* **Characterization of murine CD34, a marker for hematopoietic progenitor and stem cells.**  
+Krause DS, Ito T, Fackler MJ, Smith OM, Collector MI, Sharkis SJ, May WS. ***Blood.*** 1994. PMID: [7519070](https://www.ncbi.nlm.nih.gov/pubmed/7519070)

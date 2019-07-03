@@ -11,7 +11,8 @@ title = "Recent News"
 subtitle = ""
 
 [content]
-  # Page type to display. E.g. post, talk, or publication.
+  # Page type to display. This refers to the subfolder of /content.
+  # e.g. "news" refers to /content/news
   page_type = "news"
 
   # Choose how much pages you would like to display (0 = all pages)

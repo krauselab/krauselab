@@ -1,42 +1,75 @@
-# [Academic Kickstart](https://sourcethemes.com/academic/)
+# How to update the website
 
-**Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
+This website is distributed over two GitHub repositories. The first is called `academic-kickstart`. This is the repository that you're looking at now. `academic-kickstart` hosts all of the *content* that's used to generate the website. This content is turned into the *site pages* that are displayed when you visit `krauselab.net` by `hugo`, a static site generator. These site pages are stored in a separate repository called `krauselab_website`.
 
-**Academic Kickstart** provides a minimal template to kickstart your new website.
+This is a little complicated, but to make things as easy as possible, we're going to 1) download the `academic-kickstart` repository, 2) initialize the academic theme, and `krauselab_website` repository as a *submodule* within `academic-kickstart`.
 
-- [**Get Started**](#install)
-- [View the documentation](https://sourcethemes.com/academic/docs/)
-- [Ask a question](http://discuss.gohugo.io/)
-- [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- Support development of Academic:
-  - [Donate a coffee](https://paypal.me/cushen)
-  - [Become a backer on Patreon](https://www.patreon.com/cushen)
-  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - [Wear the T-shirt](https://academic.threadless.com/)
+With that done, all we need to do to edit the website is edit files in the `content/` directory and run the `deploy.sh` script!
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+## Prerequisites:
+1. Install homebrew (go to brew.sh)
+2. Install hugo (gohugo.io)
+3. Install atom (atom.io)
 
-## Install
+## Download repository  
+1. Pick a folder to download the website repository into. I like to use `$HOME/projects/website`.
+2. Open the terminal, and change directory into the folder you want to use
+```
+$ cd $HOME/projects/website
+```
 
-You can choose from one of the following four methods to install:
+3. Clone the repository (this makes a copy of the repository on your computer)
+```
+$ git clone --branch krauselab https://github.com/dburkhardt/academic-kickstart.git
+```
 
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+4. Change directory into the folder you just downloaded.
+```
+$ cd academic-kickstart
+```
 
-Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
+5. Initialize the theme (this downloads all of the files needed to make the website)
+```
+$ bash init_submodules.sh
+```
 
-## Ecosystem
+## Editing the website
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
+To edit the website, I recommend using atom. Once it's installed from atom.io, you can open a whole directory and easily edit multiple files.
 
-## License
+If you want to see what edits to the website will look like after you've made your changes, you can use `hugo server` to render the website locally (i.e. on your computer) and see what it will look like when you deploy to GitHub.
 
-Copyright 2017-present [George Cushen](https://georgecushen.com).
+To start the `hugo server`, do the following
 
-Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
+1. Open the terminal and change directory into the website directory.
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+```
+$ cd $HOME/projects/website/academic-kickstart
+```
+
+2. Start the server
+
+```
+$ hugo server
+```
+
+3. Open a web browser and navigate to the following address:
+
+```
+localhost:1313
+```
+
+FYI - this address is only visible on your computer when you are running `hugo server`. If you close hugo server, the address will not work.
+
+4. Edit the website using atom and check your changes on the web browser. Whenever you save a file, `hugo server` will know and refresh the website for you.
+
+5. When you are done, you can push your changes to the public version of the website using the include `deploy.sh` script.
+
+In terminal, run the following commands:
+
+```
+$ cd $HOME/projects/website/academic-kickstart
+$ bash deploy.sh
+```
+
+You're done! You can see changes reflected on the public website within one minute.

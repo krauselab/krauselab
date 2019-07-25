@@ -1,24 +1,19 @@
 +++
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-
 widget = "jumbo"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
+# Sets the title and subtitle
 title = "**Krause Laboratory**"
 subtitle = "Yale University"
 
-image = "jumbotron.jpg"
-
+# These settings adjust the  style of the jumbotron
 [design]
-  # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
 
 [design.background]
-  # Background image.
+   # Background image.
    image = "jumbotron.jpg"  # Name of image in `static/img/`.
    image_darken = 0.3  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
@@ -27,14 +22,7 @@ image = "jumbotron.jpg"
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
-
-[advanced]
- # Custom CSS.
- css_style = ""
-
- # CSS class.
- css_class = ""
+  padding = ["20px", "0", "40px", "0"]
 +++
 
 *Uncovering the molecular mechanisms of hematopoiesis and stem cell plasticity*

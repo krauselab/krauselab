@@ -3,5 +3,5 @@
 	url = https://github.com/gcushen/hugo-academic.git
 [submodule "krauselab_website"]
 	path = krauselab_website
-	url = git@github.com:dburkhardt/krauselab_website.git
+	url = https://github.com/dburkhardt/krauselab_website.git
 	branch = master

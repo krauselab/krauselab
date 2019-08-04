@@ -50,9 +50,9 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "daniel.burkhardt@yale.edu"
+email = "diane.krause@yale.edu"
 phone = "(203) 737 1678"
-address = "**Laboratory Medicine**<br>PO Box 208035<br>Yale University, New Haven CT 06520-8035"
+address = "**Yale Stem Cell Center**<br>PO Box 208073<br>Yale University, New Haven CT 06520-8035"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""

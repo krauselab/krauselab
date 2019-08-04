@@ -1,9 +1,16 @@
+.section-heading p{
+  color: #4a4a4a;
+}
+
+figcaption {
+  font-size: .85rem;
+}
+
+
 .jtron {
   text-align: center;
   height: 400px;
-  padding-top: 7rem;
 }
-
 
 @media
   only screen and (min-width: 850px) {
@@ -14,6 +21,23 @@
     background-repeat: no-repeat;
     background-size: 100%;
   }
+
+  .jtron {
+      padding-top: 3rem;
+  }
+  .jtron h1{
+    font-size: 5rem;
+  }
+
+  .jtron h2{
+    font-size: 3rem;
+  }
+
+  .jtron p{
+    font-size: 1.5rem;
+  }
+
+
 }
 
 @media
@@ -25,6 +49,22 @@
     background-repeat: no-repeat;
     background-size: 200%;
   }
+
+  .jtron {
+      padding-top: 7rem;
+  }
+
+  .jtron h1{
+    font-size: 2.5rem;
+  }
+
+  .jtron h2{
+    font-size: 1.75rem;
+  }
+
+  .jtron p{
+    font-size: 1.25rem;
+  }
 }
 
 @media
@@ -35,6 +75,11 @@
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: 300%;
+  }
+
+  .jtron {
+    height: 300px;
+    padding-top: 3rem;
   }
 }
 
@@ -69,8 +114,18 @@
   vertical-align: middle;
 }
 
-research-image {
+.research-image {
   vertical-align: middle
+}
+
+
+
+.research-heading h4{
+  font-size: 1.25rem;
+}
+
+.wg-active-projects h4 {
+  font-size: 1.5rem;
 }
 
 .portrait-holder {
@@ -272,6 +327,10 @@ img[src$='#center']
     .attend-quote h2{
         font-size: 1.75rem;
     }
+}
+.attend-video img{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

@@ -14,4 +14,8 @@ autolink = true
 
 # Email form provider (do not change)
 email_form = 2
+
+# Note: To edit the contact information in this widget, go to
+# the "Contact Widget setup" section of /config/_default/params.toml
+
 +++

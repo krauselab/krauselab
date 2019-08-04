@@ -11,10 +11,10 @@
   <div class="col-2"></div>
 
   <div class="col-8 activites-slider">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="{{$hash_id}}-slider" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         {{ range $index, $item := $page.Params.item }}
-        <li data-target="#{{$hash_id}}" data-slide-to="{{$index}}" {{if eq $index 0}}class="active"{{end}}></li>
+        <li data-target="#{{$hash_id}}-slider" data-slide-to="{{$index}}" {{if eq $index 0}}class="active"{{end}}></li>
         {{ end }}
       </ol>
       <div class="carousel-inner">

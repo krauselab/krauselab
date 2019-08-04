@@ -2,7 +2,7 @@
 {{ $page := .page }}
 {{ $hash_id := .hash_id }}
 
-<div class="container">
+<div class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <ol class="carousel-indicators">
   {{ range $index, $item := $page.Params.item }}
@@ -16,10 +16,7 @@
   <div class="wg-hero dark carousel-item{{if eq $index 0}} active{{end}}" style="{{with $page.Params.height}}{{printf "height: %s;" . | safeCSS}}{{end}}
     {{ if $item.overlay_color }}
     background-color: {{ $item.overlay_color | default "transparent" }};
-    {{ end }}
-
-  
-    ;">
+    {{ end }};">
     <img class="d-block w-100" src="{{ printf "img/%s" $item.overlay_img | absURL }}">
     <div class="container" style="text-align: {{$item.align | default "left"}};">
         <h1 class="hero-title" itemprop="headline">

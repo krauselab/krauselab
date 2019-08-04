@@ -43,4 +43,4 @@ subtitle = ""
  css_class = ""
 +++
 
-The Krause laboratory has developed a number of protocols to be distributed along with  requested reagents.
+The Krause laboratory has developed a number of protocols to be distributed along with  requested reagents. We have provided the protocols requested most often. Follow these protocols as a guideline with the realization that depending on the starting materials, optimization may be needed.

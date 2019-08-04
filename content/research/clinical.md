@@ -4,23 +4,26 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "**Clinical cell therapy**"
-subtitle = "Developing translational applications for directed differentiation of lung epithelium"
+title = "**Advanced Cell Therapy Laboratory**"
+subtitle = "Producing cell therapy products for the Yale New Haven Health system"
 
 
-img_desc = "Watch cell fate commitment unfold as a single bipotent Megakaryocytic-Erythroid Progenitor differentiates into megakaryocytes (green) and erythroid cells (red)."
 
 image = "image"
-image_source = "/img/research/differentiation.jpg"
+image_source = "/img/research/lab_medicine.jpg"
+image_caption = "To support clinical investigation in the field of cellular therapy the ACT Laboratory is located directly adjacent to the Transfusion Medicine Division and the Clinical Blood Bank for Yale New Haven Hospital."
 
-extended_summary = '*"Developing protocols for in vitro differentiation of epithelial cells from bone marrow stem cells."*'
-[design.background]
+extended_summary = '*"Providing world-class facilities and research support for cellular therapies."*'
 
-  # Background color.
-  color = "white"
+#[design.background]
+#
+#  # Background color.
+#  color = "white"
 
 +++
 
-In early 2000, Neil Theise in the Krause laboratory discovered that bone marrow derived cells are capable of differentiating into non-hematopoietic cells throughout the body. In 2001, we published our finding that a single bone marrow derived cell could engraft the hematopoietic system and differentiate into mature epithelial cells in mice, and in 2002, we published that the same occurs in humans. The nonhematopoietic (non-blood) cell types that we focused on were epithelial cells in the lung, liver, GI tract and skin.  
+The Yale Advanced Cell Therapy (ACT) laboratory is a GMP (Good Manufacturing Practices) laboratory designed for the production of high quality, safe, cell products for clinical treatment. The ACT is dedicated to and responsible for the production of cellular products to be used in phase I/II clinical trials conducted by investigators at Yale and in multicenter trials. Our laboratory has significant experience with IND-enabling studies using GMP. Cell product safety and quality are the top priorities for our GMP laboratory. By executing and documenting Good Manufacturing Practices (GMPs), the ACT practices assure that all government regulations are met, and that all products meet defined release criteria and are safe for administration to human subjects.
 
-Since that time, we have focused on several important questions regarding this plasticity including which nonhematopoietic cell populations in the bone marrow are responsible and how these cells are regulated. We have shown that bone marrow transplantation leads to amelioration of renal mesangial sclerosis, and that bone marrow derived cells can engraft as functional epithelial cells in the GI tract and lungs (specifically the alveoli) of mice. In studies to determine the mechanism(s) by which BM cells become epithelial cells, we have discovered that this involves at least 2 different mechanisms, one involving cell fusion and the other not. Fusion is quite rare.  In contrast, we have proven that nonhematopoietic cells in the bone marrow (and perhaps elsewhere), are responsible for engraftment as mature type II pneumocytes in the lung without cell fusion.  Future questions that we want to address include determining the identity of the bone marrow derived cells that are responsible, and determining the mechanisms by which they differentiate into epithelial cells without cell fusion. Our current studies are focused primarily on lung repair.
+All steps of GMP manufacturing, cryopreservation and qualification of cells for clinical research (CCR) are controlled by Standard Operating Procedures (SOPs), overseen by QA/QC and performed in our GMP facility by qualified personnel. CCR are isolated, expanded, tested, certified and released using validated SOPs. All SOPs for cell processing and transport to the patient are established and validated. SOPs governing the chain of custody, the certificate of analysis, immediate release criteria, and post-administration safety testing are also in place.
+
+To support clinical investigation in the field of cellular therapy the ACT Laboratory is located directly adjacent to the Transfusion Medicine Division and the Clinical Blood Bank for Yale New Haven Hospital. [Click here](https://medicine.yale.edu/labmed/research/act/overview.aspx) to learn more about the GMP Facility.

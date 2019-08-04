@@ -25,4 +25,4 @@ subtitle = "Yale University"
   padding = ["20px", "0", "40px", "0"]
 +++
 
-*Uncovering the molecular mechanisms of hematopoiesis and stem cell plasticity*
+*Stem cells and cell fate in health and disease*

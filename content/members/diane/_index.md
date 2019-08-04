@@ -20,8 +20,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: "" # This can be ignored if you're not hosting a blog here
 
-interests:
-
 education:
   courses:
   - course: Board Certification

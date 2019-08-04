@@ -156,3 +156,57 @@ Experimental Design, run by Daniel Burkhardt of New Haven CT, designed the new w
 The article format using Markdown, a popular markup language. You can learn more about Markdown here: https://guides.github.com/features/mastering-markdown/. Markdown supports all kinds of simple formatting options, like lists, links, bolding, images, etc.
 
 Once you save the `index.md` file, you will be able to see the new article at `localhost:1313/news/article-folder-name` if you have `hugo server` running.
+
+### Adding a lab member
+
+Content for lab members is broken down into two directories.
+
+* `/content/members` contains the content for each lab member and their individual web page
+* `/content/people` contains the content for the `krauselab.net/people` page and includes the sliders, job posts, people-cards, etc.
+
+Similar to the articles, the lab members directory is organized into folders.
+
+```
+content/members
+├── betty
+│   ├── _index.md
+│   └── avatar.jpg
+├── diane
+│   ├── _index.md
+│   └── avatar.jpg
+...
+└── yi-chien
+    ├── _index.md
+    └── avatar.jpg
+```
+
+The first thing to do to add a new lab member is to create a directory in `/content/members`.
+
+Next, you need to prepare the `avatar.jpg` image that will be used to generate the cards seen on `krauselab.net/people`. As such, `avatar.jpg` must be cropped to 2x3 (portrait) aspect ratio prior to uploading. You can do this in Apple Photos by importing the photo, double clicking the thumbnail, and hitting the "Edit" button in the top right corner. From here you will find a crop tool that will let you specify a set aspect ratio of 2x3. Crop the image and then save the cropped image into the folder at `/static/img/people/`.
+
+Finally, you need to prepare the `_index.md` file. The leading underscore is important here. For most lab members, the `_index.md` file looks like this:
+
+```
+---
+# Display name
+name: Betty R. Lawton, PhD
+
+# Role/position
+role: "Postdoctoral Associate"
+
+# Enter email
+email: "betty.lawton@yale.edu"
+
+---
+
+Dr. Betty R. Lawton is a senior member of the Krause laboratory with expertise in pluripotent stem cell culture and differentiation, as well as cell and molecular biology. The predominant interest that has driven the direction of her scientific career is the regulation of gene expression. She came to the Krause laboratory from the University of Connecticut. Her graduate (Genetics, PhD) studies were focused on examining the regulation of gene expression at the Igf2/H19 locus in marsupials and live-bearing fishes. This region is genomically imprinted in mammals and critically important for normal development. The emergence of the Connecticut Stem Cell Initiative provided an opportunity to combine her scientific interests with the needs of patients for medical alternatives to incurable conditions. She was amongst the first group of trainees at UCONN in hESC when the initiative started. She performed post-doctoral studies focused differentiation of human embryonic stem cell to skeletal muscle. In addition to performing many aspects of laboratory management, Dr. Lawton performs multiple studies focused on parathyroid cell differentiation and function.
+```
+
+You can edit the information here, and it will be reflected in the people cards and on the individual's web page. You might notice that the `_index.md` file for Diane has more fields and provides a more extensive personal web page. Content from this page can be copied into other user's `_index.md` files if desired.
+
+Note, the "role" position must be one of the following:
+"Principal Investigator", "Associate Research Scientist", "Postdoctoral Associate", "Graduate Student", "Senior Administrative Assistant". If you add a new user and don't see them on `krauselab.net/people`, then it's likely that there is a typo in their role.
+
+### Adding a protocol
+
+Lab protocols are actually news articles in disguise. To add a protocol, follow the instructions for adding a news article, but put the folder in `/content/lab-protocols`. Similarly to the lab member content, there is a second directory called `/content/protocols` but this simply provides a layout for the protocols and typically doesn't need to be edited.

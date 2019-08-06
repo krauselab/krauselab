@@ -15,7 +15,7 @@ With that done, all we need to do to edit the website is edit files in the `cont
 1. Pick a folder to download the website repository into. I like to use `$HOME/projects/website`.
 2. Open the terminal, and change directory into the folder you want to use
 ```
-$ cd $HOME/projects/website
+$ cd $HOME/Desktop/All\ Diane\'s\ Stuff/
 ```
 
 3. Clone the repository (this makes a copy of the repository on your computer)
@@ -44,7 +44,7 @@ To start the `hugo server`, do the following
 1. Open the terminal and change directory into the website directory.
 
 ```
-$ cd $HOME/projects/website/academic-kickstart
+$ cd $HOME/Desktop/All\ Diane\'s\ Stuff/academic-kickstart
 ```
 
 2. Start the server

@@ -10,7 +10,7 @@ subtitle = "Producing cell therapy products for the Yale New Haven Health system
 
 
 image = "image"
-image_source = "/img/research/lab_medicine.jpg"
+image_source = "/img/research/55-park.jpg"
 image_caption = "To support clinical investigation in the field of cellular therapy the ACT Laboratory is located directly adjacent to the Transfusion Medicine Division and the Clinical Blood Bank for Yale New Haven Hospital."
 
 extended_summary = '*"Providing world-class facilities and research support for cellular therapies."*'

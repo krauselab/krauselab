@@ -10,8 +10,8 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 # Sets the Title and Subtitle
-title = "Our mission"
-subtitle = "The goal of the Krause Laboratory is to define how stem and progenitor cells balance and regulate fate decisions in health and disease. We study stem cells to improve strategies for repair and regeneration of the hematopoietic system as well as solid organs including the lung and parathyroids."
+title = "Alumni"
+subtitle = "We care about making sure that members of the lab are prepared for their career goals. See where alumni from the lab have ended up."
 +++
 
 |   Member   |   Current Location  |

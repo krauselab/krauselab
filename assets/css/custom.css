@@ -453,3 +453,18 @@ margin-top:1rem;
   color: white;
   margin: 0.25rem;
 }
+
+.job-jumbo{
+
+}
+.job-jumbo h1{
+  font-size: 2.5rem;
+}
+
+.job-jumbo h2{
+  font-size: 1.75rem;
+}
+
+.job-jumbo p{
+  font-size: 1.25rem;
+}

@@ -6,14 +6,20 @@
 widget = "jumbo"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 70  # Order that this section will appear.
 
-title = "**Job listings**"
-subtitle="A job post will go here"
+title = "**Want to join us?**"
+subtitle="Highly qualified and enthusiastic candidates should [contact Diane](mailto:diane.krause@yale.edu) about post-doctoral research positions. Potential graduate students interested in joining the lab must apply to the [Yale Combined Program in the Biological and Biomedical Sciences](https://medicine.yale.edu/bbs/)."
 
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
 
+  [advanced]
+   # Custom CSS.
+   css_style = ""
+
+   # CSS class.
+   css_class = "job-jumbo"
 +++

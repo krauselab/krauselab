@@ -22,6 +22,10 @@ height = "400px"
   img = "/img/activities/lab_picnic.jpg"  # Image path relative to your `static/img/` folder.
 
 [[item]]
+  title = "Kwasi grills at the Summer Picnic"
+  img = "/img/activities/kwasi_grill.jpg"  # Image path relative to your `static/img/` folder.
+
+[[item]]
   title = "Diane and Tianyi go kayaking"
   img = "/img/activities/kayaking.jpg"
 

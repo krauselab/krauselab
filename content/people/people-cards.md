@@ -12,6 +12,9 @@ subtitle = "Meet the hardworking scientists who drive the research in the Krause
 #   Edit each user's `user_groups` to add them to one or more of these groups.
 groups = ["Principal Investigator",
           "Associate Research Scientist",
+          "Instructor",
+          "Laboratory Director",
+          "Clinical Technologist",
           "Postdoctoral Associate",
           "Graduate Student",
           "Senior Administrative Assistant"]

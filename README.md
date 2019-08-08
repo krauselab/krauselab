@@ -7,12 +7,72 @@ This is a little complicated, but to make things as easy as possible, we're goin
 With that done, all we need to do to edit the website is edit files in the `content/` directory and run the `deploy.sh` script!
 
 ## Prerequisites:
-1. Install homebrew (go to brew.sh)
-2. Install hugo (gohugo.io)
-3. Install atom (atom.io)
+#### Homebrew
 
-## Download repository  
-1. Pick a folder to download the website repository into. I like to use `$HOME/projects/website`.
+Homebrew is a package manager for Mac OS. You need to install this only so that you can install `hugo`, which is the program that builds the website. If you're using a new computer, you'll need to install homebrew. Because homebrew is a command-line application, to check if homebrew is installed, open up the Terminal application, and type `which brew`. If you see something like `/usr/local/bin/brew`, then you can skip this step. If nothing gets printed, then proceed.
+
+**Installing Homebrew**
+
+1. Open a web browser and go to https://brew.sh
+2. Follow the instructions under the "Install Homebrew" section
+
+#### Hugo
+
+Hugo is a free open-source website builder that takes a set folder and files and creates a website that can be displayed on any browser. Like homebrew, hugo is a command line application. To check if it's installed, open a terminal and type `which hugo`. If nothing gets printed, then proceed.
+
+**Installing Hugo**
+
+1. Open a web browser and go to https://gohugo.io/getting-started/quick-start/
+2. Follow the installation instructions
+
+#### Atom
+
+Atom is a text editor with a graphical user interface built by GitHub. It can be used to edit the text files used to build your website. Atom is not a command line application, so you can find it in your Applications folder if it's installed.
+
+If you can't find Atom, then proceed
+
+**Installing Atom**
+
+1. Go to https://atom.io
+2. Download the Atom files
+3. Drag and drop the application file into your Applications directory.
+
+## Some background on Git
+
+The website is hosted on GitHub and managed using a program called Git. Git lets you manage versions of your website and makes it easy for multiple people to edit the same set of files.
+
+Git is build around the concept of a repository. A Git repository is a folder that can be synced across multiple devices. The `academic-kickstart` folder mentioned above is a repository.
+
+GitHub separate from Git, but is offers a resource to remotely host repositories so that there are copies of the files not on your computer.  This is similar to the idea of folders on Dropbox.
+
+There are a few Git commands/functions that you should be familiar with.
+
+**Git clone** downloads a copy of a remote repository (i.e. a repository on GitHub) that _you do not have on your computer_. You will need to clone a repository if you have not already downloaded it on the computer you're using.
+
+**Git fetch** downloads any changes that have happened on a remote repository since you last updated your local copy. It's a good idea to do a **fetch** any time you sit down to work on the website. You can do this on Atom once you've downloaded the website and and opened it using `File > Add Project Folder` by clicking the "Fetch" button in the lower right hand corner.
+
+**Git pull** merged any changes that have been downloaded from the remote repository (i.e. on GitHub) into your local folder (i.e. the folder on your computer). Once you've hit the "Fetch" button on Atom, then if there are changes between your computer's folders and the remote, then the button will change to say "Pull". Clicking that will merge remote changes.
+
+**Git add** also called "staging" on Atom, prepare recent changes to be uploaded to the remote repository. Any time you change a file on your computer and save it, you should see the file come up in the "Unstaged Changes" section on Atom's Git tab. If you don't see the Git tab, go to `Packages -> GitHub -> Toggle Git tab`. If this doesn't do anything, make sure you have atleast one file open and/or try restarting Atom. Once files have been added or "staged", they are ready to be uploaded to GitHub. Note that you don't need to add all files that you've edited, only the ones that you are done editing. However, it's probably easiest just to Stage All every time your done working.
+
+**Git commit** adds a set of staged changes to the repostories version history. By adding a "commit message" and hitting the "Commit" button, all staged changes will be added to your *local* copy of the repository.
+
+**Git push** copies all of your local commits to the remote GitHub copy of the repository. You can find the Git push button where the "Fetch" and "Pull" button lives on Atom.
+
+This is a lot of information, but here's an easy way to think about it.
+
+*Before you start working on editing the website* always do a **fetch** and **pull**.
+
+*Once you're done working on the website* always do **add**, **commit**, **push**.
+
+If you follow these steps, you shouldn't have any issues with merges. If you have issues with merges, the easiest thing to do is probably to delete you local copy of the repository (abandoning all changes since your last push), re-clone the repository, and make your changes again.
+
+## Downloading the repository  
+
+Note, for all of the commands that begin with `$ `, this means you need to enter it into a command line using the Terminal Mac OS app.
+
+1. Pick a folder to download the website repository into. When we talked, you picked `$HOME/Desktop/All\ Diane\'s\ Stuff/`. If you decide to put the website into another folder, then anywhere you see the `$HOME/Desktop/All\ Diane\'s\ Stuff/`, replace the path of the new directory.
+
 2. Open the terminal, and change directory into the folder you want to use
 ```
 $ cd $HOME/Desktop/All\ Diane\'s\ Stuff/
@@ -24,6 +84,7 @@ $ git clone --branch krauselab https://github.com/dburkhardt/academic-kickstart.
 ```
 
 4. Change directory into the folder you just downloaded.
+
 ```
 $ cd academic-kickstart
 ```
@@ -35,7 +96,7 @@ $ bash init_submodules.sh
 
 ## Editing the website
 
-To edit the website, I recommend using atom. Once it's installed from atom.io, you can open a whole directory and easily edit multiple files.
+To edit the website, I recommend using Atom. Once it's installed from atom.io, you can open your website by going to `File -> Add Project Folder` and navigate to the folder where you cloned the website in the previous section.
 
 If you want to see what edits to the website will look like after you've made your changes, you can use `hugo server` to render the website locally (i.e. on your computer) and see what it will look like when you deploy to GitHub.
 

@@ -108,7 +108,7 @@ To start the `hugo server`, do the following
 $ cd $HOME/Desktop/All\ Diane\'s\ Stuff/academic-kickstart
 ```
 
-2. Start the server
+2. To start **previewing the website locall**, start the hugo server
 
 ```
 $ hugo server
@@ -122,9 +122,11 @@ localhost:1313
 
 FYI - this address is only visible on your computer when you are running `hugo server`. If you close hugo server, the address will not work.
 
-4. Edit the website using atom and check your changes on the web browser. Whenever you save a file, `hugo server` will know and refresh the website for you.
+4. **Edit** the website using Atom and check your changes on the web browser. Whenever you save a file, `hugo server` will know and refresh the website for you.
 
-5. When you are done, you can push your changes to the public version of the website using the include `deploy.sh` script.
+5. When you are done, stop the server by holding `ctrl` and hitting `c`. This will sotp the server.
+
+6. To **publish** your changes to https://krauselab.net once the server has been stopped, you can use the included `deploy.sh` script.
 
 In terminal, run the following commands:
 

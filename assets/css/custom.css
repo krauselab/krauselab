@@ -1,3 +1,7 @@
+a {
+  color: #005bb8;
+}
+
 .section-heading p{
   color: #4a4a4a;
 }
@@ -438,6 +442,21 @@ height: 100%;
   border-top: 10px solid #875F9A;
 }
 
+.instructor{
+  border-top: 10px solid #b0a1ba;
+}
+
+
+.clinical-laboratory-director {
+  border-top: 10px solid #ea7317;
+
+}
+.clinical-technologist {
+  border-top: 10px solid #fec601;
+}
+
+
+
 .portrait-title h3{
   color: #4c5762
 }
@@ -452,6 +471,11 @@ margin-top:1rem;
 .btn-join h4{
   color: white;
   margin: 0.25rem;
+}
+
+.jobtron {
+  text-align: center;
+  height: 400px;
 }
 
 .job-jumbo{

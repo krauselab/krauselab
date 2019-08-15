@@ -28,6 +28,10 @@ date_format = "Jan 2006"
   url = "/research/#leukemogenesis"
   description = "Understanding how adult lung epithelial progenitor cell self renewal and differentiation is controlled"
 
+[[item]]
+    title = "Megakaryopoiesis"
+    url = "/research/#megakaryopoiesis"
+    description = "Transcriptional and epigenetic control of megakaryocyte maturation"
 
 [[item]]
   title = "Parathyroid Differentiation and Function"

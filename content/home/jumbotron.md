@@ -26,3 +26,5 @@ subtitle = "Yale University"
 +++
 
 *Stem cells and cell fate in health and disease*
+
+<a href="/people/#job"><button type="button" class="btn btn-join"><h4>Interested in Joining Us?<h4></button></a>

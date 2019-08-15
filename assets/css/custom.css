@@ -2,6 +2,19 @@ a {
   color: #005bb8;
 }
 
+.faux-link{
+  color: #005bb8;
+
+}
+
+.faux-link p{
+  color: #005bb8;
+}
+
+.faux-link p:hover {
+  text-decoration: underline;
+}
+
 .section-heading p{
   color: #4a4a4a;
 }

@@ -16,19 +16,20 @@
     <div class="list-group list-group-flush">
 
       {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}
-          <button type="button" class="list-group-item list-group-item-action">
+      {{ with .url }}
+      <a class="list-group-item list-group-item-action" href="{{.}}" target="_blank" rel="noopener">
+        {{ end }}
             <h4>{{.title | markdownify | emojify}}</h4>
             {{with .description}}
             <p>{{. | markdownify | emojify}}</p>
             {{end}}
-            {{ with .url }}
-            <a class="stretched-link" href="{{.}}" target="_blank" rel="noopener">
+            <p class="faux-link">
               Read more
-            </a>
-            {{ end }}
-          </button>
+            </p>
+      </a>
+
         {{end}}
-        {{end}}
+    {{end}}
     </div>
   </div>
 </div>

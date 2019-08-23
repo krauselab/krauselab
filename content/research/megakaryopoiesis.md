@@ -10,7 +10,7 @@ subtitle = "Transcriptional and Epigenetic control of megakaryocyte maturation"
 
 
 image = "image"
-image_source = "/img/research/megakaryocyte.png"
+image_source = "/img/research/megakaryocyte.jpg"
 image_caption = "Primary megakaryocyte stained for cytoskeleton (actin and tubulin) and DNA (DAPI, blue)."
 
 extended_summary = '*"Megakaryocytes are truly amazing cells."*'

@@ -21,7 +21,7 @@ extended_summary = '*"What are the molecular mechanisms that regulate the develo
 
 +++
 
-Using state of the art approaches including CRISPR, genetic screens, and timelapse microscopy, the Krause Lab works to identify the molecular mechanisms that regulate hematopoiesis. One major focus is determining how progenitors pick with differentiated cell type to become – this is cell fate commitment. Cell fate decisions are regulated by differential transcription and epigenetics the cell cycle, in ways that are not yet understood, affects the decision of the bipotent megakaryocyte-erythrocyte progenitor (MEP) to pick the megakaryocytic versus erythroid lineage.
+Using state of the art approaches including CRISPR, genetic screens, and timelapse microscopy, the Krause Lab works to identify the molecular mechanisms that regulate hematopoiesis. One major focus is determining how progenitors pick which differentiated cell type to become – this is cell fate commitment. Cell fate decisions are regulated by differential transcription and epigenetics and the cell cycle, in ways that are not yet understood. These processes affects the decision of the bipotent megakaryocyte-erythrocyte progenitor (MEP) to pick the megakaryocytic versus erythroid lineage.
 
 {{< figure src="/img/research/hematopoiesis-inline.png" caption="CFU-Mk/E: Colonies derived from a single cell that differentiated down the megakaryocytic and erythroid lineages. Left: Immunofluorescence, Right: Immunohistochemistry.">}}
 

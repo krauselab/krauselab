@@ -7,11 +7,17 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo -t academic # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-cp -r public/* krauselab_website/
-
-# Go To Public folder
+# Check for external updates to website
 cd krauselab_website/
+
+git fetch
+git pull
+
+# Copy over new content
+cp -r ../public/* .
+
 # Add changes to git.
+
 git add .
 
 # Commit changes.

@@ -21,7 +21,10 @@ header:
 <br>  
 
 * **IFN-γ binds TPO to inhibit hematopoiesis**  
-Krause, D. S. ***Blood.*** 2019. PMID: [31072961](https://www.ncbi.nlm.nih.gov/pubmed/31072961)  
+Krause, D. S. ***Blood.*** 2019. PMID: [31072961](https://www.ncbi.nlm.nih.gov/pubmed/31072961)
+
+* **Low Iron Promotes Megakaryocytic Commitment of Megakaryocytic-Erythroid Progenitors in Humans and Mice**  
+Xavier-Ferrucio J, Scanlon V, Li X, Zhang P-X,  Lozovatsky L, Ayala-Lopez N, Tebaldi T, Halene S, Cao C, Fleming MD, Finberg KE, Krause DS. ***Blood.*** 2019. PMID: [31439541](http://www.bloodjournal.org/content/early/2019/08/22/blood.2019002039/tab-article-info)  
 
 * **Promoters to Study Vascular Smooth Muscle**  
 Chakraborty, R., Saddouk, F. Z., Carrao, A. C., Krause, D. S., Greif, D. M., Martin, K. A. ***Arterioscler. Thromb. Vasc. Biol.*** 2019. PMID: [30727757](https://www.ncbi.nlm.nih.gov/pubmed/30727757)  

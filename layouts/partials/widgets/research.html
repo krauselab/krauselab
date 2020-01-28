@@ -1,0 +1,50 @@
+{{ $st := .page }}
+{{ $extended_summary := $st.Params.extended_summary }}
+{{ $image := $st.Params.image | default "image" }}
+{{ $img_src := $st.Params.image_source }}
+<div class="research-heading">
+  {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+  {{ with $st.Params.subtitle }}<h4>{{ . | markdownify | emojify }}</h4>{{ end }}
+</div>
+<div class="row attend">
+  <div class="col-12 col-sm-6 text-center attend-video">
+  {{ if eq $image "image" }}
+    <figure>
+      {{ with $img_src }}
+      <img src="{{.}}">
+      {{ end }}
+      <figcaption>
+        {{ with $st.Params.image_caption }}<p>{{ . | markdownify | emojify }}</p>{{  end }}
+      </figcaption>
+    </figure>
+  {{ else }}
+    <video controls autoplay loop>
+      {{ with $img_src }}
+      <source src="{{ . }}.webm" type="video/webm">
+      <source src="{{ . }}.mp4" type="video/mp4">
+
+        {{ end }}
+      </video>
+
+      <figcaption>
+        {{ with $st.Params.image_caption }}<p >{{ . | markdownify | emojify }}</p>{{  end }}
+      </figcaption>
+    {{ end }}
+  </div>
+
+    <div class="col-12 col-sm-6 text-middle attend-quote">
+      <h2>{{ $extended_summary | markdownify | emojify }}<h2>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col">
+      </div>
+
+      <div class="col-md-8 col-12">
+        {{ $st.Content | markdownify | emojify }}
+      </div>
+      <div class="col">
+
+      </div>
+    </div>

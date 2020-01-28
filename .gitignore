@@ -1,2 +1,6 @@
-public/
 .idea/
+
+public/
+public_*/
+
+.DS_Store

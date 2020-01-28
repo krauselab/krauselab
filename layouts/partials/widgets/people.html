@@ -1,0 +1,48 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row justify-content-center people-widget">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading" style="padding-bottom: 3rem;">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    <p>{{ . }}</p>
+  </div>
+  {{ end }}
+
+  {{ range $page.Params.groups }}
+
+
+  {{ $query := where (where site.Pages "Section" "members") ".Params.role" "in" (slice .) }}
+  {{ range $query }}
+
+  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{/* Get link to user's profile page. */}}
+  {{ $link := "" }}
+  {{ with site.GetPage (printf "/members/%s" (path.Base (path.Split .Path).Dir)) }}
+    {{ $link = .RelPermalink }}
+  {{ end }}
+  <div class="col-12 col-md-6 col-lg-4 people-person mx-auto">
+    {{ $src := "" }}
+    {{ if $avatar }}
+      {{ $avatar_image := $avatar.Fill "400x600 TopLeft" }}
+      {{ $src = $avatar_image.RelPermalink }}
+    {{ end }}
+    {{ with .Params.role }}
+    <div class="card people-card {{ . | urlize }}">
+      {{ end }}
+      <img class="card-img-top" src="{{ $src }}" alt="Avatar">
+      <div class="card-body">
+        <h5>{{with $link}}<a href="{{.}}" class="stretched-link">{{end}}{{ .Params.name }}{{if $link}}</a>{{end}}</h5>
+        {{ with .Params.role }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      </div>
+    </div>
+</div>
+
+  {{ end }}
+  {{ end }}

@@ -1,0 +1,43 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $hash_id := .hash_id }}
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}
+    <p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-2"></div>
+
+  <div class="col-8 activites-slider">
+    <div id="{{$hash_id}}-slider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        {{ range $index, $item := $page.Params.item }}
+        <li data-target="#{{$hash_id}}-slider" data-slide-to="{{$index}}" {{if eq $index 0}}class="active"{{end}}></li>
+        {{ end }}
+      </ol>
+      <div class="carousel-inner">
+        {{ range $index, $item := $page.Params.item }}
+        <div class="slideshow-mask carousel-item{{if eq $index 0}} active{{end}}">
+          {{ with $item.img }}
+          <img class="d-block w-100" src="{{ . }}" alt="First slide">
+          {{ end }}
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white;">{{ with $item.title }}{{ . | markdownify | emojify }}{{ end }}</h5>
+            <p>{{ with $item.subtitle }}{{ . | markdownify | emojify }}{{ end }}</p>
+          </div>
+
+        </div>
+        {{ end }}
+        <a class="carousel-control-prev" href="#{{$hash_id}}-slider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#{{$hash_id}}-slider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>

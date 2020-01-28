@@ -1,0 +1,53 @@
+{{ $id := (.Get "id") }}
+{{ $caption := (.Get "caption")}}
+<br>
+<div class="vimeo-player">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/{{ $id }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  <div id="video-cover" class="buttons">
+    <div class="shadow">
+    </div>
+    <!-- if we needed to change height/width we could use viewBox here -->
+    <svg id="play-button" class="button">
+    <path id="play-button-shape"  d="M24,0C10.745,0,0,10.745,0,24s10.745,24,24,24s24-10.745,24-24S37.255,0,24,0z M31.672,26.828l-9.344,9.344
+    C20.771,37.729,19.5,37.2,19.5,35V13c0-2.2,1.271-2.729,2.828-1.172l9.344,9.344C33.229,22.729,33.229,25.271,31.672,26.828z"/>
+    </svg>
+  </div>
+ </div>
+</div>
+<figure class="text-center">
+<figcaption>
+  <p>
+{{ $caption | markdownify }}
+</p>
+</figcaption>
+</figure>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+    var iframe = document.querySelector('iframe');
+    var player = new Vimeo.Player(iframe);
+
+    player.on('play', function() {
+        console.log('played the video!');
+    });
+
+    player.getVideoTitle().then(function(title) {
+        console.log('title:', title);
+    });
+
+    // bind events
+    var playButton = document.getElementById("video-cover");
+    playButton.addEventListener("click", function() {
+      console.log('play was clicked!');
+    player.play();
+
+    setTimeout(function(){
+    document.getElementById("video-cover").className = "hidden";
+}, 500);
+
+
+
+    });
+</script>

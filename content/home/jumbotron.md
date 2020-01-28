@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
 # Sets the title and subtitle
-title = "**Krause Laboratory**"
+title = "**Lindenbach Laboratory**"
 subtitle = "Yale University"
 
 # These settings adjust the  style of the jumbotron

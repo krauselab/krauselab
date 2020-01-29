@@ -1,8 +1,6 @@
 # How to update the website
 
-This website is distributed over two GitHub repositories. The first is called `academic-kickstart`. This is the repository that you're looking at now. `academic-kickstart` hosts all of the *content* that's used to generate the website. This content is turned into the *site pages* that are displayed when you visit `krauselab.net` by `hugo`, a static site generator. These site pages are stored in a separate repository called `krauselab_website`.
-
-This is a little complicated, but to make things as easy as possible, we're going to 1) download the `academic-kickstart` repository, 2) initialize the academic theme, and `krauselab_website` repository as a *submodule* within `academic-kickstart`.
+This website organized in a GitHub repository at www.github.com/krauselab.   This is the repository that you're looking at now. `www.github.com/krauselab/krauselab` hosts all of the *content* that's used to generate the website. This content is turned into the *site pages* that are displayed when you visit `krauselab.net` by `hugo`, a static site generator. These site pages are _served_ by a free service called [Netlify](www.netlify.com). Whenever you push an update to the `www.github.com/krauselab/krauselab` repository, Netlify will see the change and trigger a rebuild of the website automatically. So long as you can build the website locally (_i.e._ by running `hugo server`, see below). You also have an account at Netlify and if there are issues with updating the website you should check there.
 
 With that done, all we need to do to edit the website is edit files in the `content/` directory and run the `deploy.sh` script!
 
@@ -41,7 +39,7 @@ If you can't find Atom, then proceed
 
 The website is hosted on GitHub and managed using a program called Git. Git lets you manage versions of your website and makes it easy for multiple people to edit the same set of files.
 
-Git is build around the concept of a repository. A Git repository is a folder that can be synced across multiple devices. The `academic-kickstart` folder mentioned above is a repository.
+Git is build around the concept of a repository. A Git repository is a folder that can be synced across multiple devices. The `krauselab` folder mentioned above is a repository.
 
 GitHub separate from Git, but is offers a resource to remotely host repositories so that there are copies of the files not on your computer.  This is similar to the idea of folders on Dropbox.
 
@@ -80,18 +78,13 @@ $ cd $HOME/Desktop/All\ Diane\'s\ Stuff/
 
 3. Clone the repository (this makes a copy of the repository on your computer)
 ```
-$ git clone --branch krauselab https://github.com/dburkhardt/academic-kickstart.git
+$ git clone https://github.com/krauselab/krauselab.git
 ```
 
 4. Change directory into the folder you just downloaded.
 
 ```
-$ cd academic-kickstart
-```
-
-5. Initialize the theme (this downloads all of the files needed to make the website)
-```
-$ bash init_submodules.sh
+$ cd krauselab
 ```
 
 ## Editing the website
@@ -105,7 +98,7 @@ To start the `hugo server`, do the following
 1. Open the terminal and change directory into the website directory.
 
 ```
-$ cd $HOME/Desktop/All\ Diane\'s\ Stuff/academic-kickstart
+$ cd $HOME/Desktop/All\ Diane\'s\ Stuff/krauselab
 ```
 
 2. To start **previewing the website locall**, start the hugo server
@@ -124,15 +117,31 @@ FYI - this address is only visible on your computer when you are running `hugo s
 
 4. **Edit** the website using Atom and check your changes on the web browser. Whenever you save a file, `hugo server` will know and refresh the website for you.
 
-5. When you are done, stop the server by holding `ctrl` and hitting `c`. This will sotp the server.
+5. When you are done, stop the server by holding `ctrl` and hitting `c`. This will stop the server.
 
-6. To **publish** your changes to https://krauselab.net once the server has been stopped, you can use the included `deploy.sh` script.
+6. To **publish** your changes to https://krauselab.net, once the server has been stopped, you need to push your changes to github.
 
-In terminal, run the following commands:
+You have two options:
+
+Option A:
+Push changes to github using Atom. Here's a video showing how this is done: https://www.youtube.com/watch?v=HZV7OKoD1Hc.
+  1. Open the Git tab (in the menu bar, go to Packages > GitHub > Toggle Git Tab)
+  2. Select all the changes you'd like to Push (you should see the files in the "Unstaged Changes" section)
+  3. Hit "Stage Changes"
+  4. Type out a commit message describing the changes
+  5. Hit "Commit to master"
+  6. Hit the "Push" button on the bottom bar.
+  7. Check
+
+
+Option B:
+In terminal, run the following commands. For help, see this document (https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository):
 
 ```
-$ cd $HOME/projects/website/academic-kickstart
-$ bash deploy.sh
+$ cd $HOME/Desktop/All\ Diane\'s\ Stuff/krauselab
+$ git add .
+$ git commit -m "replace this text with your description of the changes here"
+$ git push
 ```
 
 You're done! You can see changes reflected on the public website within one minute.

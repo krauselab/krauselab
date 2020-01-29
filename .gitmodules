@@ -1,0 +1,4 @@
+[submodule "krauselab_website"]
+	path = krauselab_website
+	url = https://github.com/dburkhardt/krauselab_website.git
+	branch = master

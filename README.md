@@ -51,7 +51,7 @@ There are a few Git commands/functions that you should be familiar with.
 
 **Git pull** merged any changes that have been downloaded from the remote repository (i.e. on GitHub) into your local folder (i.e. the folder on your computer). Once you've hit the "Fetch" button on Atom, then if there are changes between your computer's folders and the remote, then the button will change to say "Pull". Clicking that will merge remote changes.
 
-**Git add** also called "staging" on Atom, prepare recent changes to be uploaded to the remote repository. Any time you change a file on your computer and save it, you should see the file come up in the "Unstaged Changes" section on Atom's Git tab. If you don't see the Git tab, go to `Packages -> GitHub -> Toggle Git tab`. If this doesn't do anything, make sure you have atleast one file open and/or try restarting Atom. Once files have been added or "staged", they are ready to be uploaded to GitHub. Note that you don't need to add all files that you've edited, only the ones that you are done editing. However, it's probably easiest just to Stage All every time your done working.
+**Git add** also called "staging" on Atom, prepare recent changes to be uploaded to the remote repository. Any time you change a file on your computer and save it, you should see the file come up in the "Unstaged Changes" section on Atom's Git tab. If you don't see the Git tab, go to `Packages -> GitHub -> Toggle Git tab`. If this doesn't do anything, make sure you have at least one file open and/or try restarting Atom. Once files have been added or "staged", they are ready to be uploaded to GitHub. Note that you don't need to add all files that you've edited, only the ones that you are done editing. However, it's probably easiest just to Stage All every time your done working.
 
 **Git commit** adds a set of staged changes to the repostories version history. By adding a "commit message" and hitting the "Commit" button, all staged changes will be added to your *local* copy of the repository.
 
@@ -101,7 +101,7 @@ To start the `hugo server`, do the following
 $ cd $HOME/Desktop/All\ Diane\'s\ Stuff/krauselab
 ```
 
-2. To start **previewing the website locall**, start the hugo server
+2. To start **previewing the website locally**, start the hugo server
 
 ```
 $ hugo server

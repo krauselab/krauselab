@@ -282,3 +282,7 @@ Note, the "role" position must be one of the following:
 ### Adding a protocol
 
 Lab protocols are actually news articles in disguise. To add a protocol, follow the instructions for adding a news article, but put the folder in `/content/lab-protocols`. Similarly to the lab member content, there is a second directory called `/content/protocols` but this simply provides a layout for the protocols and typically doesn't need to be edited.
+
+### Google Analytics
+
+Analytics for the website can be tracked at analytics.google.com using the `krauselab.website@gmail.com` login. A beginner tutorial for Google Analytics can be found here: https://analytics.google.com/analytics/academy/course/6

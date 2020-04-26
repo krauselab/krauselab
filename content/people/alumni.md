@@ -15,7 +15,9 @@ subtitle = "We care about making sure that members of the lab are prepared for t
 +++
 
 |   Member   |   Current Location  |
-| --- | --- |
+| --- | ---  |
+| Nadia Ayala-Lopez, Ph.D. | Johns Hopkins University |
+| Nur-taz Rahman, Ph.D. | Yale University |
 | Tianyi Yuan, Ph.D.     | WuXi AppTec, Shanghai, China |
 | Huiyan Jin, Ph.D.     | Boston Consulting Group |
 | Siying Zou, Ph.D.     | InVentiv Health Consulting |

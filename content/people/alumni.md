@@ -1,5 +1,5 @@
 +++
-# A Projects section created with the Portfolio widget.
+# A Projects section created with the Portfolio widget
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 

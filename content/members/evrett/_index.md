@@ -44,4 +44,4 @@ user_groups:
 - Graduate Student
 ---
 
-I am very interested in factors controlling stem cell fate with a focus on hematopoietic development.  Prior to coming to Yale, I studied beta cell development from human embryonic stem cells for use in treating patients with diabetes at Semma Therapeutics.
+Evrett Thompson, a PhD student in the Department of Cell Biology, graduated from the University of Connecticut in 2016 with a B.S. in both Molecular Cell Biology and Chemistry. Following his undergraduate studies, Evrett worked in industry at Semma Therapeutics where he was exposed to stem cell research and discovered a passion for studying differentiation and cell fate. Evrett started his PhD studies at Yale in the fall of 2019 and joined the Krause lab in March 2020 with an interest in exploring cell fate in megakaryocyte/erythroid progenitors.

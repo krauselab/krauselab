@@ -3,7 +3,7 @@
 name: Lin Wang, MS
 
 # Role/position
-role: "Associate Research Scientist"
+role: "Research Associate"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "lin.wang@yale.edu"

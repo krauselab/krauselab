@@ -19,7 +19,7 @@ subtitle = "We care about making sure that members of the lab are prepared for t
 | Nadia Ayala-Lopez, Ph.D. | Johns Hopkins University |
 | Nur-taz Rahman, Ph.D. | Yale University |
 | Tianyi Yuan, Ph.D.     | WuXi AppTec, Shanghai, China |
-| Huiyan Jin, Ph.D.     | Boston Consulting Group |
+| Huiyan Jin, Ph.D.     | University of Michigan |
 | Siying Zou, Ph.D.     | InVentiv Health Consulting |
 | Alexandra Teixeira, Ph.D.     | Boston Consulting Group |
 | Chad Sanada, Ph.D.     | Fluidigm |
@@ -36,12 +36,12 @@ subtitle = "We care about making sure that members of the lab are prepared for t
 | Natalie Taranenko, Ph.D. |  |
 | Jiankan Guo, Ph.D. | Yale University |
 | Matt Renda, Ph.D. |  Alexion Pharmaceuticals, Inc.|
-| Xianyong Ma, Ph.D. |  |
+| Xianyong Ma, Ph.D. | Yale University |
 | Li Chai, Ph.D. | Harvard University |
 | Maria Angelopoulou, M.D. | National and Kapodistrian University of Athens |
 | Royce Lin, M.D. | University of California San Fransisco |
 | James Troy, M.D. | University of California San Fransisco |
 | Lia Perez, Ph.D. | Moffitt Cancer Center, Tampa, FL |
-| Stephanie Halene, M.D., Ph.D. | Yale University |
+| Stephanie Halene, M.D., Ph.D. (Dr. rer. nat.)| Yale University |
 | Stephanie Massaro, M.P.H., M.D. | Yale University |
 | Ee-chun (Eugenie) Cheng, Ph.D. | Yale University |

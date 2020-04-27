@@ -36,7 +36,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "nur-taz.rahman@yale.edu"
+email: "evrett.thompson@yale.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -44,4 +44,4 @@ user_groups:
 - Graduate Student
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque mi eros, vel imperdiet est iaculis ultricies. Nunc quis sagittis libero. Aliquam ultrices purus auctor finibus consequat. Quisque bibendum bibendum lorem, et sodales velit vestibulum a. Integer eget suscipit elit. Donec commodo lorem ut sodales lacinia. Sed id metus ut purus egestas pellentesque. Phasellus venenatis congue ipsum non consequat. Suspendisse potenti. Nulla malesuada eros vel vestibulum egestas. Fusce quis odio finibus, accumsan nibh ac, feugiat lacus.
+I am very interested in factors controlling stem cell fate with a focus on hematopoietic development.  Prior to coming to Yale, I studied beta cell development from human embryonic stem cells for use in treating patients with diabetes at Semma Therapeutics.

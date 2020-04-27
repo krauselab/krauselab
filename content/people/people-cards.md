@@ -13,9 +13,10 @@ subtitle = "Meet the hardworking scientists who drive the research in the Krause
 groups = ["Principal Investigator",
           "Instructor",
           "Associate Research Scientist",
-          "Clinical Laboratory Director",
-          "Clinical Technologist",
           "Postdoctoral Associate",
           "Graduate Student",
+          "Research Associate",
+          "Clinical Laboratory Director",
+          "Clinical Technologist",
           "Senior Administrative Assistant"]
 +++

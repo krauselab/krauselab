@@ -16,6 +16,7 @@ groups = ["Principal Investigator",
           "Postdoctoral Associate",
           "Graduate Student",
           "Research Associate",
+          "Undergraduate",
           "Clinical Laboratory Director",
           "Clinical Technologist",
           "Senior Administrative Assistant"]

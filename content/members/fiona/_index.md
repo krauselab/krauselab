@@ -41,7 +41,7 @@ email: "fiona.Reed@yale.edu"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Graduate Student
+- Undergraduate
 ---
 
 Fiona Reed is a molecular biophysics and biochemistry major in the class of 2022. She joined the Krause lab in her first year at Yale with the support of the STARS program and currently works on defining the role of MKL1 in megakaryocyte maturation. When not in lab or class, she is captain of the Yale Alpine Ski Team and plays flute in the Davenport Pops Orchestra.

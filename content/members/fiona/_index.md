@@ -36,7 +36,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "evrett.thompson@yale.edu"
+email: "fiona.Reed@yale.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -44,4 +44,4 @@ user_groups:
 - Graduate Student
 ---
 
-Evrett Thompson, a PhD student in the Department of Cell Biology, graduated from the University of Connecticut in 2016 with a B.S. in both Molecular Cell Biology and Chemistry. Following his undergraduate studies, Evrett worked in industry at Semma Therapeutics where he was exposed to stem cell research and discovered a passion for studying differentiation and cell fate. Evrett started his PhD studies at Yale in the fall of 2019 and joined the Krause lab in March 2020 with an interest in exploring cell fate in megakaryocyte/erythroid progenitors.
+Fiona Reed is a molecular biophysics and biochemistry major in the class of 2022. She joined the Krause lab in her first year at Yale with the support of the STARS program and currently works on defining the role of MKL1 in megakaryocyte maturation. When not in lab or class, she is captain of the Yale Alpine Ski Team and plays flute in the Davenport Pops Orchestra.

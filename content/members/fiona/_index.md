@@ -1,16 +1,16 @@
 ---
 # Display name
-name: Nadia Ayala-Lopez, PhD, MLS
+name: Fiona Reed
 
 # Username (this should match the folder name)
 authors:
-- nadia
+- Fiona
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: "Postdoctoral Associate"
+role: "Undergraduate"
 
 # Organizations/Affiliations
 organizations:
@@ -27,9 +27,7 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: pubmed
-  icon_pack: ai
-  link: https://www.ncbi.nlm.nih.gov/pubmed?term=(Krause%20DS%5BAuthor%5D)%20AND%20Yale%5BAffiliation%5D
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
@@ -38,13 +36,12 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "nadia.ayala-lopez@yale.edu"
+email: "evrett.thompson@yale.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Researchers
-- Visitors
+- Graduate Student
 ---
 
-Dr. Nadia Ayala-Lopez is a Postdoctoral Fellow in the Department of Laboratory Medicine in the Yale School of Medicine. She earned a PhD in Pharmacology and Toxicology from Michigan State University, where as a National Institute of Health Pre-Doctoral Fellow, she studied the role of adipose tissue in blood vessel function. She is certified by the American Society for Clinical Pathology and served as a medical laboratory scientist at the University of Washington. Dr. Ayala-Lopez's current research at Yale University is on RNA modifications in acute megakaryoblastic leukemia. Besides research, she is active in the postdoctoral community and serves as Chair for the Yale Postdoctoral Association.
+Evrett Thompson, a PhD student in the Department of Cell Biology, graduated from the University of Connecticut in 2016 with a B.S. in both Molecular Cell Biology and Chemistry. Following his undergraduate studies, Evrett worked in industry at Semma Therapeutics where he was exposed to stem cell research and discovered a passion for studying differentiation and cell fate. Evrett started his PhD studies at Yale in the fall of 2019 and joined the Krause lab in March 2020 with an interest in exploring cell fate in megakaryocyte/erythroid progenitors.

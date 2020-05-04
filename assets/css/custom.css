@@ -451,6 +451,10 @@ height: 100%;
   border-top: 10px solid #49ae6e;
 }
 
+.undergraduate {
+  border-top: 10px solid #7be0a0;
+}
+
 .senior-administrative-assistant {
   border-top: 10px solid #875F9A;
 }
@@ -464,6 +468,11 @@ height: 100%;
   border-top: 10px solid #ea7317;
 
 }
+
+.research-associate {
+  border-top: 10px solid #ea7317;
+}
+
 .clinical-technologist {
   border-top: 10px solid #fec601;
 }

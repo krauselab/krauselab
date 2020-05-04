@@ -1,3 +1,47 @@
+
+.principal-investigator {
+  border-top: 10px solid #124160;
+}
+
+.postdoctoral-associate {
+  border-top: 10px solid #659b90;
+}
+
+.associate-research-scientist {
+  border-top: 10px solid #3184b8;
+}
+
+.graduate-student {
+  border-top: 10px solid #49ae6e;
+}
+
+.undergraduate {
+  border-top: 10px solid #7be0a0;
+}
+
+.senior-administrative-assistant {
+  border-top: 10px solid #875F9A;
+}
+
+.instructor{
+  border-top: 10px solid #b0a1ba;
+}
+
+
+.clinical-laboratory-director {
+  border-top: 10px solid #ea3017;
+}
+
+.research-associate {
+  border-top: 10px solid #ea7317;
+}
+
+.clinical-technologist {
+  border-top: 10px solid #fec601;
+}
+
+
+
 a {
   color: #005bb8;
 }
@@ -434,50 +478,6 @@ height: 100%;
   margin-top: -20px;
   height: 2rem;
 }
-
-.principal-investigator {
-  border-top: 10px solid #124160;
-}
-
-.postdoctoral-associate {
-  border-top: 10px solid #659b90;
-}
-
-.associate-research-scientist {
-  border-top: 10px solid #3184b8;
-}
-
-.graduate-student {
-  border-top: 10px solid #49ae6e;
-}
-
-.undergraduate {
-  border-top: 10px solid #7be0a0;
-}
-
-.senior-administrative-assistant {
-  border-top: 10px solid #875F9A;
-}
-
-.instructor{
-  border-top: 10px solid #b0a1ba;
-}
-
-
-.clinical-laboratory-director {
-  border-top: 10px solid #ea7317;
-
-}
-
-.research-associate {
-  border-top: 10px solid #ea7317;
-}
-
-.clinical-technologist {
-  border-top: 10px solid #fec601;
-}
-
-
 
 .portrait-title h3{
   color: #4c5762

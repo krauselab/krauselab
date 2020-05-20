@@ -3,7 +3,7 @@
 name: Ashley Ubbelohde
 
 # Role/position
-role: "Graduate Student"
+role: "Masters Student"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "Ashley.Ubbelohde@quinnipiac.edu"

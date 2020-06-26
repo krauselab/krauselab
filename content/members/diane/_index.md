@@ -26,15 +26,15 @@ education:
     institution: AB of Pathology, Clinical Pathology
     year: 1994
   - course: Fellowship
-    institution: Johns Hopkins Hospital
+    institution: Johns Hopkins
   - course: Resident, Clinical Pathology
     institution: Hospital of the University of Pennsylvania
   - course: PhD
     institution: University of Pennsylvania
-    year: 1990
+    year:
   - course: MD
     institution: University of Pennsylvania
-    year: 1990
+    year: 
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

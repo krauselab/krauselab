@@ -1,6 +1,6 @@
 ---
 # Display name
-name:Joseph Autuoro
+name: Joseph Autuoro
 
 # Username (this should match the folder name)
 authors:

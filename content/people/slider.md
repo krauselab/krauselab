@@ -18,8 +18,8 @@ height = "400px"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Summer Picnic at the Yale Outdoor Center"
-  img = "/img/activities/lab_picnic.jpg"  # Image path relative to your `static/img/` folder.
+  title = "Lab Jeopardy! Over Zoom"
+  img = "/img/activities/lab_jeopardy_1.jpg"  # Image path relative to your `static/img/` folder.
 
 [[item]]
   title = "Kwasi grills at the Summer Picnic"
@@ -50,6 +50,6 @@ height = "400px"
   img = "/img/activities/caroling.jpg"
 
 [[item]]
-  title = "The lab celebrates Huiyan's PhD Defense"
-  img = "/img/activities/defense_toast.jpg"
+  title = "Secret Snowflake Holiday Gift Swap"
+  img = "/img/activities/Secret_Snowflake.png"
 +++

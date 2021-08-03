@@ -14,11 +14,17 @@ header:
   image: ""
 ---
 
-### [Find all of our publications on pubmed](https://www.ncbi.nlm.nih.gov/pubmed?term=(Krause%20DS%5BAuthor%5D)%20AND%20Yale%5BAffiliation%5D)
+### [Find all of our publications on pubmed](https://www.ncbi.nlm.nih.gov/pubmed?term=(Krause%20DS%5BAuthor%5D)%20AND%20Yale%5BAffiliation%5D)  
 
 <br>
-# 2021
-<br>
+# 2021  
+<br>  
+
+* **Methylation of dual-specificity phosphatase 4 controls cell differentiation.**  
+Su H., Jiang M., Senevirathne C., Aluri S., Zhang T., Guo H., Xavier-Ferrucio J., Jin S., Tran N. T., Liu S. M., Sun C. W., Zhu Y., Zhao Q., Chen Y., Cable L., Shen Y., Liu J., Qu C. K., Han X., Klug C. A., Bhatia R., Chen Y., Nimer S. D., Zheng Y. G., Iancu-Rubin C., Jin J., Deng H., Krause D. S., Xiang J., Verma A., Luo M., Zhao X. ***Cell Rep.*** 2021. PMID: [34320342](https://pubmed.ncbi.nlm.nih.gov/34320342/)
+
+* **Bone Marrow-Derived VSELs Engraft as Lung Epithelial Progenitor Cells after Bleomycin-Induced Lung Injury**  
+Ciechanowicz A. K., Sielatycka K., Cymer M., Skoda M., Suszyńska M., Bujko K., Ratajczak M. Z., Krause D. S., Kucia M. ***Cells*** 2021. PMID: [34206516](https://pubmed.ncbi.nlm.nih.gov/34206516/)
 
 * **MRTFA: A critical protein in normal and malignant hematopoiesis and beyond**  
 Reed, F., Larsuel, S. T., Mayday, M. Y., Scanlon, V., Krause, D. S. ***J. Biol. Chem.*** 2021. PMID: [33722605](https://pubmed.ncbi.nlm.nih.gov/33722605/)
@@ -26,18 +32,21 @@ Reed, F., Larsuel, S. T., Mayday, M. Y., Scanlon, V., Krause, D. S. ***J. Biol. 
 * **Combined liver-cytokine humanization comes to the rescue of circulating human red blood cells**  
 Song, Y., Shan, L., Gbyli, R., Liu, W., Strowig, T., Patel, A., Fu, X., Wang, X., Xu, M. L., Gao, Y., Qin, A., Bruscia, E. M., Tebaldi, T., Biancon, G., Mamillapalli, P., Urbonas, D., Eynon, E., Gonzalez, D. G., Chen, J., Krause, D. S., Alderman, J., Halene, S., Flavell, R. A. ***Science*** 2021. PMID: [33674488](https://pubmed.ncbi.nlm.nih.gov/33674488/)
 
-* **Current understanding of human megakaryocytic-erythroid progenitors and their fate determinants**  
-Kwon, N., Thompson, E. N., Mayday, M. Y., Scanlon, V., Yi-Chien, Lu., Krause, D. S. ***Curr. Opin. Hematol.*** 2021. PMID: [33186151](https://pubmed.ncbi.nlm.nih.gov/33186151/) 
-
-<br>
-# 2020
-<br>
+* **Single cell epigenetic visualization assay.**  
+Kint, S., Van Criekinge, W., Vandekerckhove, L., De Vos, W. H., Bomsztyk, K., Krause, D. S., Denisenko, O. ***Nucleic Acids Res.*** 2021. PMID: [33511400](https://pubmed.ncbi.nlm.nih.gov/33511400/)
 
 * **Thrombocytopathy and endotheliopathy: crucial contributors to COVID-19 thromboinflammation**  
-Gu, S. X., Tyagi, T., Jain, K., Gu, V. W., Lee, S. H., Hwa, J. M., Kwan, J. M., Krause, D. S., Lee, A. I., Halene, S., Martin, K. A., Chun, H. J., Hwa, J. ***Nat. Rev. Cardiol.*** 2020. PMID: [33214651](https://pubmed.ncbi.nlm.nih.gov/33214651/)
+Gu, S. X., Tyagi, T., Jain, K., Gu, V. W., Lee, S. H., Hwa, J. M., Kwan, J. M., Krause, D. S., Lee, A. I., Halene, S., Martin, K. A., Chun, H. J., Hwa, J. ***Nat. Rev. Cardiol.*** 2021. PMID: [33214651](https://pubmed.ncbi.nlm.nih.gov/33214651/)
+
+* **Current understanding of human megakaryocytic-erythroid progenitors and their fate determinants**  
+Kwon, N., Thompson, E. N., Mayday, M. Y., Scanlon, V., Yi-Chien, Lu., Krause, D. S. ***Curr. Opin. Hematol.*** 2021. PMID: [33186151](https://pubmed.ncbi.nlm.nih.gov/33186151/)  
+
+<br>
+# 2020  
+<br>  
 
 * **Differentiation of PTH-Expressing Cells From Human Pluripotent Stem Cells**  
-Lawton, B. R., Martineau, C., Sosa, J. A., Roman, S., Gibson, C. E., Levine, M. A., Krause, D. S. ***Endocrinology.*** 2020. PMID: [32810225](https://pubmed.ncbi.nlm.nih.gov/32810225/)
+Lawton, B. R., Martineau, C., Sosa, J. A., Roman, S., Gibson, C. E., Levine, M. A., Krause, D. S. ***Endocrinology.*** 2020. PMID: [32810225](https://pubmed.ncbi.nlm.nih.gov/32810225/)  
 
 <br>
 # 2019  
@@ -54,6 +63,9 @@ Krause, D. S. ***Blood.*** 2019. PMID: [31072961](https://www.ncbi.nlm.nih.gov/p
 
 * **Low Iron Promotes Megakaryocytic Commitment of Megakaryocytic-Erythroid Progenitors in Humans and Mice**  
 Xavier-Ferrucio, J., Scanlon, V., Li, X., Zhang, P-X.,  Lozovatsky, L., Ayala-Lopez, N., Tebaldi, T., Halene, S., Cao, C., Fleming, M. D., Finberg, K. E., Krause, D. S. ***Blood.*** 2019. PMID: [31439541](http://www.bloodjournal.org/content/early/2019/08/22/blood.2019002039/tab-article-info)  
+
+* **Transmembrane Protein Aptamer Induces Cooperative Signaling by the EPO Receptor and the Cytokine Receptor β-Common Subunit.**  
+He L., Cohen E. B., Edwards A. P. B., Xavier-Ferrucio J., Bugge K., Federman R. S., Absher D., Myers R. M., Kragelund B. B., Krause D. S., DiMaio D. ***iScience*** 2019. PMID: [31279934](https://pubmed.ncbi.nlm.nih.gov/31279934/)
 
 * **Promoters to Study Vascular Smooth Muscle**  
 Chakraborty, R., Saddouk, F. Z., Carrao, A. C., Krause, D. S., Greif, D. M., Martin, K. A. ***Arterioscler. Thromb. Vasc. Biol.*** 2019. PMID: [30727757](https://www.ncbi.nlm.nih.gov/pubmed/30727757)  

@@ -17,14 +17,43 @@ header:
 ### [Find all of our publications on pubmed](https://www.ncbi.nlm.nih.gov/pubmed?term=(Krause%20DS%5BAuthor%5D)%20AND%20Yale%5BAffiliation%5D)
 
 <br>
+# 2021
+<br>
+
+* **MRTFA: A critical protein in normal and malignant hematopoiesis and beyond**  
+Reed, F., Larsuel, S. T., Mayday, M. Y., Scanlon, V., Krause, D. S. ***J. Biol. Chem.*** 2021. PMID: [33722605](https://pubmed.ncbi.nlm.nih.gov/33722605/)
+
+* **Combined liver-cytokine humanization comes to the rescue of circulating human red blood cells**  
+Song, Y., Shan, L., Gbyli, R., Liu, W., Strowig, T., Patel, A., Fu, X., Wang, X., Xu, M. L., Gao, Y., Qin, A., Bruscia, E. M., Tebaldi, T., Biancon, G., Mamillapalli, P., Urbonas, D., Eynon, E., Gonzalez, D. G., Chen, J., Krause, D. S., Alderman, J., Halene, S., Flavell, R. A. ***Science*** 2021. PMID: [33674488](https://pubmed.ncbi.nlm.nih.gov/33674488/)
+
+* **Current understanding of human megakaryocytic-erythroid progenitors and their fate determinants**  
+Kwon, N., Thompson, E. N., Mayday, M. Y., Scanlon, V., Yi-Chien, Lu., Krause, D. S. ***Curr. Opin. Hematol.*** 2021. PMID: [33186151](https://pubmed.ncbi.nlm.nih.gov/33186151/) 
+
+<br>
+# 2020
+<br>
+
+* **Thrombocytopathy and endotheliopathy: crucial contributors to COVID-19 thromboinflammation**  
+Gu, S. X., Tyagi, T., Jain, K., Gu, V. W., Lee, S. H., Hwa, J. M., Kwan, J. M., Krause, D. S., Lee, A. I., Halene, S., Martin, K. A., Chun, H. J., Hwa, J. ***Nat. Rev. Cardiol.*** 2020. PMID: [33214651](https://pubmed.ncbi.nlm.nih.gov/33214651/)
+
+* **Differentiation of PTH-Expressing Cells From Human Pluripotent Stem Cells**  
+Lawton, B. R., Martineau, C., Sosa, J. A., Roman, S., Gibson, C. E., Levine, M. A., Krause, D. S. ***Endocrinology.*** 2020. PMID: [32810225](https://pubmed.ncbi.nlm.nih.gov/32810225/)
+
+<br>
 # 2019  
 <br>  
+
+* **A versatile flow-based assay for immunocyte-mediated cytotoxicity**  
+Rabinovich, P. M., Zhang, J., Kerr, S. R., Cheng, B-H., Komarovskaya, M., Bersenev, A., Hurwitz, M. E., Krause, D. S., Weissman, S. M., Katz, S. G. ***J. Immunol. Methods.*** 2019. PMID: [31525367](https://pubmed.ncbi.nlm.nih.gov/31525367/)
+
+* **Adult bone marrow progenitors become decidual cells and contribute to embryo implantation and pregnancy**  
+Tal, R., Shaikh, S., Pallavi, P., Tal, A., Lopez-Giraldez, F., Lyu, F., Fang, Y-Y., Chinchanikar, S., Liu, Y., Kliman, H. J., Alderman, M., Pluchino, N., Kayani, J., Mamillapalli, R., Krause, D. S., Taylor, H. S. ***PLoS Biol.*** 2019. PMID: [31513564](https://pubmed.ncbi.nlm.nih.gov/31513564/)
 
 * **IFN-γ binds TPO to inhibit hematopoiesis**  
 Krause, D. S. ***Blood.*** 2019. PMID: [31072961](https://www.ncbi.nlm.nih.gov/pubmed/31072961)
 
 * **Low Iron Promotes Megakaryocytic Commitment of Megakaryocytic-Erythroid Progenitors in Humans and Mice**  
-Xavier-Ferrucio J, Scanlon V, Li X, Zhang P-X,  Lozovatsky L, Ayala-Lopez N, Tebaldi T, Halene S, Cao C, Fleming MD, Finberg KE, Krause DS. ***Blood.*** 2019. PMID: [31439541](http://www.bloodjournal.org/content/early/2019/08/22/blood.2019002039/tab-article-info)  
+Xavier-Ferrucio, J., Scanlon, V., Li, X., Zhang, P-X.,  Lozovatsky, L., Ayala-Lopez, N., Tebaldi, T., Halene, S., Cao, C., Fleming, M. D., Finberg, K. E., Krause, D. S. ***Blood.*** 2019. PMID: [31439541](http://www.bloodjournal.org/content/early/2019/08/22/blood.2019002039/tab-article-info)  
 
 * **Promoters to Study Vascular Smooth Muscle**  
 Chakraborty, R., Saddouk, F. Z., Carrao, A. C., Krause, D. S., Greif, D. M., Martin, K. A. ***Arterioscler. Thromb. Vasc. Biol.*** 2019. PMID: [30727757](https://www.ncbi.nlm.nih.gov/pubmed/30727757)  

@@ -26,7 +26,7 @@ date_format = "Jan 2006"
 [[item]]
   title = "Leukemogenesis"
   url = "/research/#leukemogenesis"
-  description = "Understanding how adult lung epithelial progenitor cell self renewal and differentiation is controlled"
+  description = "Studying the genetic dysregulation that causes Acute Megakaryoblastic Leukemia"
 
 [[item]]
     title = "Megakaryopoiesis"

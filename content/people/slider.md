@@ -22,32 +22,32 @@ height = "400px"
   img = "/img/activities/lab_jeopardy_1.jpg"  # Image path relative to your `static/img/` folder.
 
 [[item]]
-  title = "Kwasi grills at the Summer Picnic"
-  img = "/img/activities/kwasi_grill.jpg"  # Image path relative to your `static/img/` folder.
+  title = "Max and Lin Apple Picking"
+  img = "/img/activities/max_lin_applePicking.jpg"  # Image path relative to your `static/img/` folder.
 
 [[item]]
-  title = "Diane and Tianyi go kayaking"
-  img = "/img/activities/kayaking.jpg"
+  title = "Yi-Chien Farewell Lab Dinner"
+  img = "/img/activities/lab-dinner-2021.jpg"
 
 [[item]]
-  title = "Diane leads the charge at the New Haven March for Science"
-  img = "/img/activities/science_march.jpg"
+  title = "Making Tie-dye Shirts at Krause Lab Summer Party"
+  img = "/img/activities/tie_dye_shirtMaking.jpg"
 
 [[item]]
-  title = "Pre-match carb loading at the CT Open"
-  img = "/img/activities/ct_open_barbecue.jpg"
+  title = "Adding Color to the Tie-dye Shirts"
+  img = "/img/activities/tie_dye_shirtMaking_2.jpg"
 
 [[item]]
-  title = "The Krause lab gets ready for action at the CT Open"
-  img = "/img/activities/ct_open.jpg"
+  title = "Team Scan Escape Room Outing"
+  img = "/img/activities/Team_Scan_Feb_2020.jpg"
 
 [[item]]
-  title = "Fierce competition at the Lab Olympics"
-  img = "/img/activities/olympics.jpg"
+  title = "Madeline and Vanessa in the Lab"
+  img = "/img/activities/vanessa_madeline.jpg"
 
 [[item]]
-  title = "Holiday Caroling"
-  img = "/img/activities/caroling.jpg"
+  title = "Students in the Lab"
+  img = "/img/activities/undergrads.jpg"
 
 [[item]]
   title = "Secret Snowflake Holiday Gift Swap"

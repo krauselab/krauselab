@@ -9,5 +9,3 @@ role: "Clinical Laboratory Director"
 email: "alexey.bersenev@yale.edu"
 
 ---
-
-Dr. ....

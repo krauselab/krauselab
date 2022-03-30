@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Shannon Larsuel
+name: Gina Lee
 
 # Username (this should match the folder name)
 authors:
-- Shannon
+- Gina
 
 # Is this the primary user of the site?
 superuser: false
@@ -36,7 +36,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "shannon.Larsuel@yale.edu"
+email: "gina.lee@yale.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -44,4 +44,4 @@ user_groups:
 - Undergraduate
 ---
 
-Shannon Larsuel is majoring in Molecular, Cellular, and Developmental Biology and pursuing a joint Masters of Public Health. As a member of the Krause Lab, Shannon studied the role of MKL1 in fetal megakaryopoiesis. Shannon first gained interest and experience in stem cell research while participating in Stanford University’s SIMR program in high school. She is passionate about healthcare disparities and aspires to become a physician. On campus, Shannon spends her time involved with her sorority, Alpha Phi, works for the Yale College Dean’s Office as a Communication and Consent Educator, and volunteers for Haven Free Clinic and Yale New Haven Hospital’s Elder Horizon Program.
+Gina Lee is a prospective double-major in Molecular, Cellular, and Developmental Biology and History of Science, Medicine, and Public Health in the class of 2025. At the Krause lab, she studies the role of FOXM1 in the cell fate specification of megakaryocyte/erythroid progenitors. Outside of the lab, Gina plays flute in the Berkeley College Orchestra, works as a barista at the Silliman Acorn, and volunteers at the LifeHaven shelter through the Big Sibs program.

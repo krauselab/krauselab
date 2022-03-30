@@ -1,10 +1,10 @@
 ---
 # Display name
-name: Evrett Thompson
+name: Amos Espinosa
 
 # Username (this should match the folder name)
 authors:
-- Evrett
+- Amos
 
 # Is this the primary user of the site?
 superuser: false
@@ -36,7 +36,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "evrett.thompson@yale.edu"
+email: "amos.espinosa@yale.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -44,4 +44,4 @@ user_groups:
 - Graduate Student
 ---
 
-Evrett Thompson, a PhD student in the Department of Cell Biology, graduated from the University of Connecticut in 2016 with a B.S. in both Molecular Cell Biology and Chemistry. Following his undergraduate studies, Evrett worked in industry at Semma Therapeutics where he focused on stem cell research and discovered a passion for studying differentiation and cell fate. Evrett started his PhD studies at Yale in the fall of 2019 and joined the Krause lab in March 2020 with an interest in exploring cell fate in megakaryocyte/erythroid progenitors.
+Amos Espinosa is a PhD student in the Experimental Pathology (ExPath) Graduate Program and a Medical Research Scholar. He obtained his B.A. in Integrative Biology ­– emphasis in Human Biology and Health Sciences from UC Berkeley in 2019. He then worked as a Junior Specialist in the lab of Dr. Michelle Arkin at UCSF in collaboration with the ATOM Consortium to develop and optimize high-throughput screening assays to quantify drug-induced liver injury in the context of early-stage drug discovery. Amos started his PhD studies at Yale in the MMPP track of the BBS program in Fall 2021 and joined the Krause Lab in Spring 2022.

@@ -16,6 +16,7 @@ subtitle = "We care about making sure that members of the lab are prepared for t
 
 |   Member   |   Current Location  |
 | --- | ---  |
+| Vanessa Scanlon, Ph.D. | University of Connecticut |
 | Yi-Chien Lu, Ph.D. | Eppendorf |
 | Nadia Ayala-Lopez, Ph.D. | Johns Hopkins University |
 | Nur-taz Rahman, Ph.D. | Yale University |

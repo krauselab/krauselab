@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: "Post-graduate Associate"
+role: "Research Associate"
 
 # Organizations/Affiliations
 organizations:
@@ -41,7 +41,7 @@ email: "maximillian.carlino@yale.edu"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Post-graduate-Associate
+- Research-Associate
 ---
 
 Max Carlino, a postgraduate associate in the Department of Laboratory Medicine, graduated from the Ohio State University in 2015 with a B.S. in Chemistry. Max earned an M.S. in Infectious Disease and Immunology at Loyola University Chicago, then worked toward the development of large animal cancer models as a researcher at the University of Illinois Chicago and as a consultant with Sus Clinicals, Inc. Max joined the Krause lab in May of 2021 with an interest in elucidating relationships between transcriptomic regulation and hematopoietic potential.

@@ -18,38 +18,42 @@ height = "400px"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "Lab Jeopardy! Over Zoom"
-  img = "/img/activities/lab_jeopardy_1.jpg"  # Image path relative to your `static/img/` folder.
+  title = "Krause Lab Beach Party – with a rainbow!"
+  img = "/img/activities/rainbow beach house.jpeg"  # Image path relative to your `static/img/` folder.
 
 [[item]]
-  title = "Max and Lin Apple Picking"
+  title = "Gina, Amos, Rubia, and Mi kayaking."
+  img = "/img/activities/kayaking lab.jpg" #Image path relative to your `static/img/` folder.
+
+[[item]]
+  title = "Krause Lab brownies (courtesy of Madeline)."
+  img = "/img/activities/krause lab brownies.jpeg" #Image path relative to your `static/img/` folder.
+
+[[item]]
+  title = "Max and Lin apple-picking."
   img = "/img/activities/max_lin_applePicking.jpg"  # Image path relative to your `static/img/` folder.
 
 [[item]]
-  title = "Yi-Chien Farewell Lab Dinner"
+  title = "Lab Jeopardy! Over Zoom."
+  img = "/img/activities/lab_jeopardy_1.jpg"  # Image path relative to your `static/img/` folder.
+
+[[item]]
+  title = "Yi-Chien's farewell lab dinner."
   img = "/img/activities/lab-dinner-2021.jpg"
 
 [[item]]
-  title = "Making Tie-dye Shirts at Krause Lab Summer Party"
+  title = "Making tie-dye shirts at Krause Lab Summer Party."
   img = "/img/activities/tie_dye_shirtMaking.jpg"
 
 [[item]]
-  title = "Adding Color to the Tie-dye Shirts"
+  title = "Adding color to the tie-dye shirts."
   img = "/img/activities/tie_dye_shirtMaking_2.jpg"
 
 [[item]]
-  title = "Team Scan Escape Room Outing"
-  img = "/img/activities/Team_Scan_Feb_2020.jpg"
-
-[[item]]
-  title = "Madeline and Vanessa in the Lab"
+  title = "Madeline and Vanessa in the Lab."
   img = "/img/activities/vanessa_madeline.jpg"
 
 [[item]]
-  title = "Students in the Lab"
-  img = "/img/activities/undergrads.jpg"
-
-[[item]]
-  title = "Secret Snowflake Holiday Gift Swap"
+  title = "Secret Snowflake Holiday Gift Swap!"
   img = "/img/activities/Secret_Snowflake.png"
 +++

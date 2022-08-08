@@ -7,7 +7,7 @@
 {{ $person_page_path := (printf "/members/%s" (index (split $name " ") 0 ) ) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
-  {{ errorf "Could not find an name page at `%s`. Please check the value of `name` in your About widget and create an associated name page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+  {{ errorf "Could not find an  at `%s`. Please check the value of `name` in your About widget and create an associated  if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
@@ -55,7 +55,7 @@
   </div>
   <div class="col-12 col-lg-8" itemprop="description">
 
-    {{/* Only display widget title in explicit instances of about widget, not in name pages. */}}
+    {{/* Only display widget title in explicit instances of about widget, not in s. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
     <div class="portrait-title">

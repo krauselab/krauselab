@@ -1,6 +1,6 @@
 ---
 title: "Gene Expression and Epigenetic Datasets"  # Add a page title.
-view: 1
+view: 4
 ---
 *Helpful websites for querying gene expression and epigenetic changes in primary mouse and human hematopoiesis*  
 

@@ -9,4 +9,4 @@ title = "Our team"
 subtitle = "*The Krause Laboratory is a diverse group of driven individuals united by a common drive to better understand the world of biology. [Visit our lab members page to meet the team.](/people)*"
 +++
 
-{{< figure src="/img/people/group_photo_2021.jpg" >}}
+{{< figure src="/img/people/Summer Picnic July 2023 4.jpg" >}}

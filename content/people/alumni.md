@@ -16,6 +16,7 @@ subtitle = "We care about making sure that members of the lab are prepared for t
 
 |   Member   |   Current Location  |
 | --- | ---  |
+| Nayoung Kwon, Ph.D.| University of California Los Angeles |
 | Vanessa Scanlon, Ph.D. | University of Connecticut |
 | Yi-Chien Lu, Ph.D. | Eppendorf |
 | Nadia Ayala-Lopez, Ph.D. | Johns Hopkins University |

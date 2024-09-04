@@ -3,7 +3,7 @@
 name: Betty R. Lawton, PhD
 
 # Role/position
-role: "Associate Research Scientist"
+role: "Research Associate"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "betty.lawton@yale.edu"
